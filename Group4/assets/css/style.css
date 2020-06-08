@@ -1,1 +1,53 @@
 
+
+body {
+    margin: 0;
+}
+
+/* Footer Styles */
+
+.footer {
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.footer:hover {
+    color: #696969;
+}
+
+footer{
+    color: #E5E5E5;
+    background-color: #393939;
+    height: 500;
+}
+
+.footer:hover {
+    color: #696969;
+}
+
+.contact-info {
+    align-items: center;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    text-align: left;
+    line-height: 2;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .contact-info {
+        display: inline;
+    }
+
+    .container {
+        margin-bottom: 3rem;
+    }
+
+    .footer {
+        margin-left: 35%;
+    }
+}
