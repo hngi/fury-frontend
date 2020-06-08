@@ -1,13 +1,13 @@
 @import url(https://fonts.google.com/specimen/PT+Serif?query=PT&sidebar.open&selection.family=PT+Serif:wght@700);
 @import url(https://fonts.google.com/specimen/Raleway?query=raleway&sidebar.open&selection.family=PT+Serif:wght@700|Raleway:wght@400;500);
 
-*{
+* {
     margin: 0;
     padding: 0;
     position: relative;
 }
 
- /* wrapper */
+/* wrapper */
 
 
 /* nav style goes here */
@@ -19,16 +19,16 @@
 
 
 /* container css code */
-.container{
+.container {
     width: 95%;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 10%;
-  
+
 }
 
 /*End of container css code */
- /* header */
+/* header */
 .header {
     width: 100%;
     height: 259px;
@@ -36,12 +36,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 64px;
+    margin-top: 90px;
     background-image: url(../images/01-HomePage/001-headerImage/headerImage-02.jpg);
-    box-shadow:inset 0 0 0 2000px  rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 
-h2{
+h2 {
     color: white;
     font-family: 'PT Serif', serif;
     font-style: normal;
@@ -51,19 +51,20 @@ h2{
 
 
 /* first cloumn syle */
-.flexOne{
+.flexOne {
     display: flex;
     align-items: center;
     /* flex-wrap: wrap; */
 }
 
 /* individual  flex child code goes here */
-.gymnasium{
+.gymnasium {
     width: 50%;
     height: 400px;
     margin-left: 20px;
 }
-.golf{
+
+.golf {
     /* margin: 0 auto; */
     width: 50%;
     height: 400px;
@@ -80,13 +81,14 @@ h2{
     width: 95%;
 
 }
-.image h5{
+
+.image h5 {
     margin-top: -75.4px;
     text-transform: uppercase;
     padding-left: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding-top:20px;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -95,7 +97,7 @@ h2{
     /* height: 20px; */
 }
 
-.image img{
+.image img {
     width: 100%;
     height: 382px;
     position: relative;
@@ -106,12 +108,12 @@ h2{
 
 
 /* grouping of the paragraph and input tag which are also both in the flex child */
-.content{
+.content {
     margin-top: 4%;
     width: 90%;
 }
 
-input{
+input {
     margin-top: 1rem;
     width: 100px;
     height: 40px;
@@ -121,28 +123,31 @@ input{
     border: none;
     cursor: pointer;
 }
-input:hover{
+
+input:hover {
     background-color: rgb(247, 57, 47);
     font-weight: 700;
 }
+
 /* End grouping of the paragraph and input tag which are also both in the flex child */
 
 /*End of first cloumn syle */
 
- /* Second row style  */
-.flexTwo{
+/* Second row style  */
+.flexTwo {
     display: flex;
     align-items: center;
     margin-top: 130px;
 }
 
 /* individual  flex child code goes here */
-.swimmingPools{
+.swimmingPools {
     width: 50%;
     height: 400px;
     margin-left: 20px;
 }
-.businessCafe{
+
+.businessCafe {
     /* margin: 0 auto; */
     width: 50%;
     height: 400px;
