@@ -57,7 +57,6 @@ hero section
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url("../images/headerImage-01.jpg"); */
     background-repeat: no-repeat;
     background-size: cver;
     color: #ffffff;
@@ -70,7 +69,7 @@ hero section
 
 .hero_heading {
     font-size: 5.65rem;
-    line-height: 0.9;
+    line-height: 1.2;
     margin-bottom: .2em;
 }
 
@@ -94,6 +93,7 @@ hero section
 }
 
 .btn {
+    font-size: 1rem;
     text-decoration: none;
     color: black;
     display: inline-block;
@@ -101,7 +101,6 @@ hero section
     background-color: #EB392E;
     padding: 1.22em 4em;
     font-weight: 600;
-    font-size: 1.2rem;
     transition: .25s linear all;
 }
 
@@ -127,7 +126,7 @@ sections
 
 .section_text {
     width: 65%;
-    margin: 0 auto 2em;
+    margin: 2.5em auto;
 }
 
 
@@ -141,15 +140,10 @@ Welcome_section
     display: grid;
     grid-gap: 25px;
     gap: 20px;
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(4, 1fr);
 }
 
-
-/* .welcome_card+.welcome_card {
-    margin-left: 1em;
-} */
-
-.welcome_card {
+.card {
     position: relative;
 }
 
@@ -160,33 +154,107 @@ Welcome_section
     position: relative;
 }
 
-.card_text {
+.card_link {
     font-weight: 900;
     color: #FFFFFF;
+    display: block;
     position: absolute;
-    z-index: 2;
+    z-index: 30;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
-    /* margin: 1em; */
+}
+
+.card_link:hover,
+.card_link:focus {
+    color: #ffffff;
 }
 
 .card_overlay {
     background: rgba(43, 42, 42, 0.7);
     position: absolute;
     opacity: 1;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
-    height: 100%;
+    height: auto;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    transition: 0.4s ease-in linear;
+    -webkit-transition: 0.4s ease-in linear;
 }
 
-.card_overlay:hover {
+.card_overlay:hover,
+.card_overlay:focus {
     opacity: 0;
+    transition: 0.4s ease-in linear;
+    -webkit-transition: 0.4s ease-in linear;
 }
 
-.card_link:hover {}
+
+/* 
+=======
+Rooms
+====== */
+
+.room_cards {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.room_card {
+    position: relative;
+}
+
+.room_link {
+    text-decoration: underline;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: rgba(43, 42, 42, 0.8);
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+}
+
+.room_link:hover,
+.room_link:focus {
+    color: #ffffff;
+    padding: 0;
+    padding: 40% 1em;
+    position: absolute;
+    top: 0;
+    bottom: 5px;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+}
+
+@media(max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+    .hero_heading {
+        font-size: 3.65rem;
+        line-height: 1;
+        margin-bottom: .2em;
+    }
+    .welcome_cards {
+        display: block;
+    }
+    .card {
+        width: 280px;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: .5em;
+    }
+}
