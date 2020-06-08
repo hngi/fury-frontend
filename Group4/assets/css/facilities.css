@@ -1,8 +1,14 @@
+@import url(https://fonts.google.com/specimen/PT+Serif?query=PT&sidebar.open&selection.family=PT+Serif:wght@700);
+@import url(https://fonts.google.com/specimen/Raleway?query=raleway&sidebar.open&selection.family=PT+Serif:wght@700|Raleway:wght@400;500);
+
 *{
     margin: 0;
     padding: 0;
     position: relative;
 }
+
+ /* wrapper */
+
 
 /* nav style goes here */
 /* nav{
@@ -16,11 +22,32 @@
 .container{
     width: 95%;
     margin: 0 auto;
-    margin-top: 54px;
+    margin-top: 30px;
     margin-bottom: 10%;
+  
 }
 
 /*End of container css code */
+ /* header */
+.header {
+    width: 100%;
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    background-image: url(../images/01-HomePage/001-headerImage/headerImage-02.jpg);
+    box-shadow:inset 0 0 0 2000px  rgba(0, 0, 0, 0.6);
+}
+
+h2{
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px
+}
 
 
 /* first cloumn syle */
@@ -51,16 +78,17 @@
 
 .image {
     width: 95%;
+
 }
 .image h5{
-    margin-top: -70.4px;
+    margin-top: -75.4px;
     text-transform: uppercase;
     padding-left: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding-top:20px;
     padding-bottom: 20px;
-    font-family: Raleway sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-size: 24px;
     font-weight: 800;
@@ -100,3 +128,22 @@ input:hover{
 /* End grouping of the paragraph and input tag which are also both in the flex child */
 
 /*End of first cloumn syle */
+
+ /* Second row style  */
+.flexTwo{
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+}
+
+/* individual  flex child code goes here */
+.swimmingPools{
+    width: 50%;
+    height: 400px;
+    margin-left: 20px;
+}
+.businessCafe{
+    /* margin: 0 auto; */
+    width: 50%;
+    height: 400px;
+}
