@@ -15,6 +15,8 @@ The Frontend team has been sectioned into subgroups, with each subgroup expected
 - Group 5 - @cj1996 | github - @chiaka1996
 - Group 4 - @victorAnumudu | github - @victorAnumudu
 
+All team leads must update their progress on their README on their different branches.
+
 If you don't have a team already, i suggest you reach out any of them to show your interest in becoming a member of that team. The team leads are to coordinate the activities of the group, so as to come out with a good implementation of the designs.they are to ensure:
 
 - Consistency of thier work with the design template
