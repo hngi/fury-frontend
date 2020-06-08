@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/family.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
         <title>family room Dumont Hotel</title>
     </head>
-    <body>
-        
+    <body onload="mySlideShow()">
+
         <!-- this overall-container covers the whole thing inside the page -->
         <div class="overall-container">
 
@@ -20,7 +21,7 @@
             
             <!-- page-header describes the page name FAMILY ROOM -->
             <div class="page-header">
-
+                <div class="page-header-overlay">family room</div>
             </div>
             <!-- END of page-header that describes the page name FAMILY ROOM -->
 
@@ -28,13 +29,47 @@
             <!-- slide-show div contains the slide picture and the pictures below it -->
             <div class="slide-show">
 
+                <div class="slide-show-wrapper" id="demo">
+                    <img id="imgCon" src="assets/images/04-Rooms/Deluxeeroom.jpg" alt="SlideImage">
+                    <!-- <img id="imgCon" src="assets/images/04-Rooms/executive-rooms.jpg" alt="SlideImage">
+                    <img id="imgCon" src="assets/images/04-Rooms/family-rooms.jpg" alt="SlideImage">
+                    <img id="imgCon" src="assets/images/04-Rooms/img-005.jpg" alt="SlideImage"> -->
+                    <!-- <img id="imgCon" src="assets/images/04-Rooms/StandardRoom.jpg" alt="SlideImage"> -->
+                    <div class="nextCon">
+                        <button class="previous" onclick="myNext(this)"><</button>
+                        <button class="next" onclick="myNext(this)">></button>
+                    </div>
+                </div>
+
+                <div class="activeCon">
+                    <div value="0" class="active" onclick="myActiveSlide(this)">
+                        <img class="small-image" src="assets/images/04-Rooms/Deluxeeroom.jpg" alt="SlideImage">
+                    </div>
+                    <div value="1" class="active" onclick="myActiveSlide(this)">
+                        <img class="small-image" src="assets/images/04-Rooms/executive-rooms.jpg" alt="SlideImage">
+                    </div>
+                    <div value="2" class="active" onclick="myActiveSlide(this)">
+                        <img class="small-image" src="assets/images/04-Rooms/family-rooms.jpg" alt="SlideImage">
+                    </div>
+                    <div value="3" class="active" onclick="myActiveSlide(this)">
+                        <img class="small-image" src="assets/images/04-Rooms/img-005.jpg" alt="SlideImage">
+                    </div>
+                    <div value="4" class="active" onclick="myActiveSlide(this)">
+                        <img class="small-image" src="assets/images/04-Rooms/StandardRoom.jpg" alt="SlideImage">
+                    </div>
+                </div>
+
             </div>
             <!-- slide-show div contains the slide picture and the pictures below it -->
 
             <!-- overview section div -->
             <div class="overview">
-
-            </div>
+                <h1>Overview</h1>
+                 <p>Guests staying in our 22 sqm (237 sq ft) Standard Twin Rooms enjoy an elegant and modern design providing a comfortable living throughout your stay whether you are on business or leisure. Relax in our fresh, stylish, air conditioned Guest Rooms, where you can enjoy a restful night’s sleep and work in comfort at the spacious desk.</p>
+                 
+                 <p> Relax and watch movies on the 32-inch LCD TV and surf the web with WiFi access. These rooms also feature a mini-fridge, hair dryer and an iron/ironing board on request to make you feel at home.</p>
+            
+                </div>
             <!-- END of overview section div -->
 
 
