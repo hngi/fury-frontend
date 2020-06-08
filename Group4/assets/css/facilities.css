@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* nav style goes here */
+/* nav{
+    
+} */
+/*End nav style goes here */
+
+
+
+/* container css code */
+.container{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 10%;
+}
+
+/*End of container css code */
+
+
+/* first cloumn syle */
+.flexOne{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+/* individual  flex child code goes here */
+.gymnasium{
+    width: 50%;
+    height: 400px;
+    margin-left: 20px;
+}
+.golf{
+    /* margin: 0 auto; */
+    width: 50%;
+    height: 400px;
+}
+
+/* End of individual  flex child code */
+
+
+
+/* grouping of image and h5 which are both under the flex child  */
+
+
+.image {
+    width: 95%;
+}
+.image h5{
+    margin-top: -70.4px;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-family: Raleway sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+    /* height: 20px; */
+}
+
+.image img{
+    width: 100%;
+    height: 382px;
+    position: relative;
+    /* left: 80px; */
+}
+
+/* End grouping of image and h5 which are both under the flex child  */
+
+
+/* grouping of the paragraph and input tag which are also both in the flex child */
+.content{
+    margin-top: 4%;
+    width: 90%;
+}
+
+input{
+    margin-top: 1rem;
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #EB392E;
+    border: none;
+    cursor: pointer;
+}
+input:hover{
+    background-color: rgb(247, 57, 47);
+    font-weight: 700;
+}
+/* End grouping of the paragraph and input tag which are also both in the flex child */
+
+/*End of first cloumn syle */
