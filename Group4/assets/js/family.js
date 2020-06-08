@@ -5,11 +5,11 @@ var myActive = document.getElementsByClassName("active");
 var myContainer = document.querySelector(".slide-show-wrapper");
 var myImg = document.getElementById("imgCon");
 var mySlide = [
-    "assets/images/pic-slide/slide1.png",
-    "assets/images/pic-slide/slide2.png",
-    "assets/images/pic-slide/slide3.png",
-    "assets/images/pic-slide/slide4.png",
-    "assets/images/pic-slide/slide5.png"
+    "assets/images/04-Rooms/Deluxeeroom.jpg",
+    "assets/images/04-Rooms/executive-rooms.jpg",
+    "assets/images/04-Rooms/family-rooms.jpg",
+    "assets/images/04-Rooms/img-005.jpg",
+    "assets/images/04-Rooms/StandardRoom.jpg"
 ];
 
 var mylength = mySlide.length;
@@ -90,18 +90,18 @@ function mySlideShow(){
 
 myTimer = setInterval(mySlideShow, 8000)
 
-function myActiveSlide(c){
+// function myActiveSlide(c){
   
-  for(j = 0; j < myActive.length; j++){
-    if(j == c.value){
-      myActive[j].style.border = "2px solid #000"
-    } else {
-      myActive[j].style.border = "none"
-    }
-  }
-  myImg.src = mySlide[c.value];
-  i = c.value;
-}
+//   for(j = 0; j < myActive.length; j++){
+//     if(j == c.value){
+//       myActive[j].style.border = "2px solid #000"
+//     } else {
+//       myActive[j].style.border = "none"
+//     }
+//   }
+//   myImg.src = mySlide[c.value];
+//   i = c.value;
+// }
 
 function myNext(c){
   

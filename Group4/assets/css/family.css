@@ -11,7 +11,7 @@
 /* Style for the page-header section =================================================================================================== */
 .page-header{
     height: 250px;
-    background-image: url(../images/header-image.jpg);
+    background-image: url(../images/02-AboutUsPage/header-image-4-other-page.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: teal;
@@ -91,8 +91,8 @@
     justify-content: space-between;
 }
 .active{
-    width: 19%;
-    /* border: 2px solid #000; */
+    width: 15%;
+    height: 50px;
     cursor: pointer;
 }
 .small-image{
@@ -111,7 +111,7 @@
 .previous, .next{
     color: white;
     font-weight: 700;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 50%;
     border: none;
     padding: 5px 8px;
