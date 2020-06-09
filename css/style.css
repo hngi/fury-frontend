@@ -42,6 +42,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.tagline {
+    font-size: 48px;
+    line-height: 60px;
+}
+
 .below-tagline {
     font-size: 36px;
     line-height: 45px;
