@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: 'Raleway', sans-serif;
 }
 
  /* wrapper */
@@ -23,7 +24,7 @@
     width: 95%;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 10%;
+    margin-bottom: 170px;
   
 }
 
@@ -54,6 +55,7 @@ h2{
 .flexOne{
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
     /* flex-wrap: wrap; */
 }
 
@@ -88,50 +90,16 @@ h2{
     color: white;
     padding-top:20px;
     padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-size: 24px;
     font-weight: 800;
     /* height: 20px; */
 }
-@media(max-width:768px){
-    .image h5{
-        margin-top: -34.4px;
-        text-transform: uppercase;
-        padding-left: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        font-family: Raleway sans-serif;
-        font-style: normal;
-        font-size: 24px;
-        font-weight: 800;
-    }
-}
 
 
-@media(max-width:414px){
-    .image h5{
-        margin-top: -23.4px;
-        text-transform: uppercase;
-        padding-left: 6px;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        font-family: Raleway sans-serif;
-        font-style: normal;
-        font-size: 16px;
-        font-weight: 800;
-    }
-}
 
-@media(max-width:360px){
-    .image h5{
-        padding-left: 3px;
-    }
-}
+
+
 
 .image img{
     width: 100%;
@@ -139,13 +107,7 @@ h2{
     position: relative;
     /* left: 80px; */
 }
-@media(max-width:768px){
-    .image img{
-        width: 100%;
-        height: 150px;
-        position: relative;
-    }
-}
+
 /* End grouping of image and h5 which are both under the flex child  */
 
 
@@ -155,17 +117,6 @@ h2{
     width: 90%;
 }
 
-@media(max-width:414px){
-    .content{
-        font-size: 14px;
-    }
-}
-
-@media(max-width:360px){
-    .content{
-        font-size: 13.7px;
-    }
-}
 
 input{
     margin-top: 1rem;
@@ -193,22 +144,7 @@ input:hover{
     margin-top: 130px;
 }
 
-@media(max-width:768px){
-    .flexTwo{
-        display: flex;
-        align-items: center;
-        margin-top: -70px;
-    }
-    
-}
-@media(max-width:375px){
-    .flexTwo{
-        display: flex;
-        align-items: center;
-        margin-top: -60px;
-    }
-    
-}
+
 /* individual  flex child code goes here */
 .swimmingPools{
     width: 50%;
@@ -221,3 +157,42 @@ input:hover{
     height: 400px;
 }
 
+
+
+
+/* responsiveness */
+
+/* ipad responsiveness */
+
+@media only screen and (max-width: 960px) {
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+
+/* mobile responsiveness */
+@media screen and (max-width:480px) {
+    .flexOne,.flexTwo{
+        display: flex;
+        flex-direction: column;
+     /* flex-wrap: wrap; */
+    }
+    .gymnasium,.swimmingPools{
+        margin: 0 auto;
+        width: 95%;
+        margin-bottom: 150px;
+    }
+    .golf,.businessCafe{
+        margin: 0 auto;
+        width: 95%;
+    }
+    .image {
+        width: 100%;
+    }
+    h2{
+        font-size: 3.5rem
+    }
+}

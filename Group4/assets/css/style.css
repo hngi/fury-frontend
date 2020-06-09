@@ -29,25 +29,55 @@ footer{
     align-items: center;
     display: flex;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.75rem;
     text-align: left;
-    line-height: 2;
+    line-height: 1.7;
     justify-content: space-between;
     padding: 4%;
 }
 
-@media screen and (max-width: 992px) {
 
-    .contact-info {
+
+
+
+/* responsiveness */
+
+/* ipad responsiveness */
+
+ @media screen and (max-width: 992px) {
+
+    /* .contact-info {
         display: inline;
     }
 
-    .container {
+    .contain {
         margin-bottom: 3rem;
     }
 
     .footer {
         margin-left: 35%;
+    } */
+      .contact-info {
+        padding: 1%;
+        align-items: center;
+        justify-content: center;
+    }
+} 
+
+
+
+/* mobile responsiveness */
+
+
+@media screen and (max-width:480px) {
+    .contact-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 1.7rem;
+        padding-bottom: 1.4rem;
+        line-height: 1.9;
     }
 }
