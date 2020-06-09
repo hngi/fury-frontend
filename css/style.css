@@ -34,12 +34,17 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.card-title, .tagline, .below-tagline {
+.card-title, .tagline, .below-tagline, .page-title {
     font-family: 'Berkshire Swash', cursive;
 }
 
 .above-tagline {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    color: #FFA800;
 }
 
 .tagline {
@@ -52,6 +57,26 @@ body {
     line-height: 45px;
 }
 
+.page-title {
+    font-size: 48px;
+}
+
 .jumbotron {
     background-color: white;
+    border-radius: 0px;
+    margin-bottom: 0rem;
+}
+
+.card {
+        height: 200px;
+        background: #F7F7F7;
+        border: 1px solid rgba(91, 14, 34, 0.5);
+        border-radius: 0px;
+        margin-bottom: 2.5rem;
+}
+
+.card-title {
+    font-size: 38px;
+    line-height: 60px;
+    margin: 10px 0px;
 }
