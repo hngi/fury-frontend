@@ -94,6 +94,44 @@ h2{
     font-weight: 800;
     /* height: 20px; */
 }
+@media(max-width:768px){
+    .image h5{
+        margin-top: -34.4px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Raleway sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 800;
+    }
+}
+
+
+@media(max-width:414px){
+    .image h5{
+        margin-top: -23.4px;
+        text-transform: uppercase;
+        padding-left: 6px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Raleway sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 800;
+    }
+}
+
+@media(max-width:360px){
+    .image h5{
+        padding-left: 3px;
+    }
+}
 
 .image img{
     width: 100%;
@@ -101,7 +139,13 @@ h2{
     position: relative;
     /* left: 80px; */
 }
-
+@media(max-width:768px){
+    .image img{
+        width: 100%;
+        height: 150px;
+        position: relative;
+    }
+}
 /* End grouping of image and h5 which are both under the flex child  */
 
 
@@ -109,6 +153,18 @@ h2{
 .content{
     margin-top: 4%;
     width: 90%;
+}
+
+@media(max-width:414px){
+    .content{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:360px){
+    .content{
+        font-size: 13.7px;
+    }
 }
 
 input{
@@ -129,6 +185,7 @@ input:hover{
 
 /*End of first cloumn syle */
 
+
  /* Second row style  */
 .flexTwo{
     display: flex;
@@ -136,6 +193,22 @@ input:hover{
     margin-top: 130px;
 }
 
+@media(max-width:768px){
+    .flexTwo{
+        display: flex;
+        align-items: center;
+        margin-top: -70px;
+    }
+    
+}
+@media(max-width:375px){
+    .flexTwo{
+        display: flex;
+        align-items: center;
+        margin-top: -60px;
+    }
+    
+}
 /* individual  flex child code goes here */
 .swimmingPools{
     width: 50%;
@@ -147,3 +220,4 @@ input:hover{
     width: 50%;
     height: 400px;
 }
+
