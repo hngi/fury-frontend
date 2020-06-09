@@ -6,3 +6,23 @@ body{
     font-family: 'Comfortaa', cursive;*/
     font-family: 'Quicksand', sans-serif;
 }
+
+.column {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.thumbnail {
+    border: 0px;
+}
+
+.thumbnail:focus, .thumbnail:hover {
+    box-shadow: none;
+}
+
+.card {
+    margin:10px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    background-color: #333;
+}
