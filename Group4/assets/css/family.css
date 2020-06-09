@@ -123,6 +123,36 @@
 
 
 
+/* Style for the overview section =================================================================================================== */
+.overview {
+    padding: 2em 3em;
+    line-height: 156.19%;
+    font-size: 20px;
+    color: #393939;
+}
+
+.overview h1 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.overview h1:after {
+    content:' ';
+    display:block;
+    border:1px solid #DADADA;
+}
+
+.overview p {
+    padding-bottom: 0.7em;
+}
+
+
+
+
+/* End of Style for the overview section =================================================================================================== */
+
+
+
 @media only screen and (max-width:768px) {
     .slide-show-wrapper{
         height: 300px;
