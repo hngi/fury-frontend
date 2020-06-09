@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -13,24 +14,39 @@
 </head>
 
 <body>
+
   <!-- Navigation Bar -->
-  <header class="header">
-    <nav>
-      <a class="navbar-brand" href="index.html">
-        <img class="img-responsive" src="assets/images/logos/header-logo.png" alt="logo">
-      </a>
-      <ul class="navbar-nav">
-        <li class="nav-item" aria-current="home"> <a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"> <a class="nav-link" href="">About us</a></li>
-        <li class="nav-item"> <a class="nav-link" href="">Rooms</a></li>
-        <li class="nav-item"> <a class="nav-link" href="">Contact us</a></li>
-        <li class="nav-item"> <a class="nav-link" href="">Facilities</a></li>
-      </ul>
+  <nav>
+    <a class="navbar-brand" href="index.html">
+      <img class="img-responsive" src="assets/images/logos/header-logo.png" alt="logo">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item" aria-current="home"> <a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"> <a class="nav-link" href="">About us</a></li>
+      <li class="nav-item"> <a class="nav-link" href="">Rooms</a></li>
+      <li class="nav-item"> <a class="nav-link" href="">Contact us</a></li>
+      <li class="nav-item"> <a class="nav-link" href="facilities.html">Facilities</a></li>
+    </ul>
+    <a class="btn btn-header" href="#"> Book Now</a>
+    <div class="bar-container" onclick="toggler(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </nav>
+
+  <!-- side navigation -->
+  <ul class="sidemenu">
+    <li> <a class="nav-link" href="index.html">Home</a></li>
+    <li> <a class="nav-link" href="">About us</a></li>
+    <li> <a class="nav-link" href="">Rooms</a></li>
+    <li> <a class="nav-link" href="">Contact us</a></li>
+    <li> <a class="nav-link" href="facilities.html">Facilities</a></li>
+    <li>
       <a class="btn" href="#"> Book Now</a>
-
-    </nav>
-  </header>
-
+    </li>
+  </ul>
+  <!-- sidenavigation -->
   <!-- End Navigation Bar -->
 
   <main>
@@ -53,14 +69,7 @@
             Sydney College in Virginia, looked up one of the more
             obscure Latin words, consectetur, from a Lorem Ipsum
             passage ...
-            <div>
-              <button>READ MORE</button>
-            </div>
           </div>
-        </div>
-
-      </div>
-
     </section>
 
     <!----Gallery-->
@@ -81,7 +90,9 @@
     <div class='text-center'>
       <button>BROWSE OUR GALLERY</button>
     </div>
-  --->
+    --->
+
+
     <!--Testimonial-->
     <section class="Testimonial mt-2">
       <h2 class='text-center'>TESTIMONIAL</h2>
@@ -132,12 +143,10 @@
         <span class="dot" onclick="showSlide(2)"></span>
         <span class="dot" onclick="showSlide(3)"></span>
       </div>
+    </section>
   </main>
 
-
-
   <footer>
-
     <div class="contact-info">
       <div class="footer footer-logo contain"><a href="index.html"><img src="assets/images/logos/footer-logo.png"
             alt="dumont logo" srcset=""></a></div>
