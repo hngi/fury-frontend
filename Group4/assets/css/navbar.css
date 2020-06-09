@@ -83,13 +83,20 @@ a {
 
 .btn {
     color: white;
+<<<<<<< HEAD
+=======
     max-width: 120px;
     height: 56px;
     padding: 15px;
+>>>>>>> c3b20032c8eff8c023927fae2fc8f963c4707bb9
     background: #EB392E;
     border-radius: 5px;
-    font-size: 1em;
-    text-align: center
+    font-weight: 600;
+    text-align: center;
+}
+
+nav .btn {
+    padding: 1em 1.5em;
 }
 
 .img-responsive {
@@ -159,6 +166,8 @@ a {
         align-items: center;
         text-align: center;
     }
+<<<<<<< HEAD
+=======
 
     .navbar-nav {
         display: none;
@@ -217,4 +226,5 @@ a {
 
 .mb-5 {
     margin-bottom: 3em;
+>>>>>>> c3b20032c8eff8c023927fae2fc8f963c4707bb9
 }
