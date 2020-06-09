@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <!-- Navigation Bar -->
+  <!-- Navigation Bar 
   <header class="header">
     <nav>
       <a class="navbar-brand" href="index.html">
@@ -33,7 +33,7 @@
     </nav>
 
   </header>
-
+ ---->
   <!-- End Navigation Bar -->
 
   <main>
@@ -43,8 +43,8 @@
       <hr class='border'>
       <div class='about-us-container'>
         <img class='about-us-image' src='assets/images/01-HomePage/004-AboutUs/AboutUs.jpg'>
-        <div class='about-us-text'>
-          <div>
+        <div>
+          <div class='about-us-text'>
             Contrary to popular belief, Lorem isn’t simply random
             text. It has roots in a of classical Latin literature from
             45 BC, making it over 2000 years old. Avalon’s leading
@@ -52,13 +52,14 @@
             amenities and distinctive
             <br>
             <br>
-            <br>
             Richard McClintock, a Latin professor at Hampden-
             Sydney College in Virginia, looked up one of the more
             obscure Latin words, consectetur, from a Lorem Ipsum
             passage ...
+            <div>
+              <button>READ MORE</button>
+            </div>
           </div>
-          <button>READ MORE</button>
         </div>
 
       </div>
@@ -66,6 +67,7 @@
     </section>
 
     <!----Gallery-->
+    <!---
     <section class='Gallery mt-2'>
       <h2 class='text-center '>GALLERY</h2>
       <hr class='border'>
@@ -82,15 +84,16 @@
     <div class='text-center'>
       <button>BROWSE OUR GALLERY</button>
     </div>
+  --->
     <!--Testimonial-->
     <section class="Testimonial mt-2">
       <h2 class='text-center'>TESTIMONIAL</h2>
       <hr class='border'>
       <div class="testimonial-container">
         <img class='prev' src='assets/images/01-HomePage/006-Testimonial/Vector 3.png'>
-        <div class="slide active-slide">
+        <div class="slide">
           <div class="slide-image">
-            <img  src='assets/images/01-HomePage/006-Testimonial/Ellipse 1.jpg'>
+            <img src='assets/images/01-HomePage/006-Testimonial/Ellipse 1.jpg'>
           </div>
           <div class="slide-text">
             My every visit to Dumont, Richard McClintock, a Latin professor at Hampden- Sydney College in Virginia,
@@ -127,10 +130,10 @@
         <img class='next' src='assets/images/01-HomePage/006-Testimonial/Vector 4.png'>
       </div>
       <div class='slide-dot text-center'>
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="showSlide(0)"></span>
+        <span class="dot" onclick="showSlide(1)"></span>
+        <span class="dot" onclick="showSlide(2)"></span>
+        <span class="dot" onclick="showSlide(3)"></span>
       </div>
   </main>
   <script src="assets/js/slideshow.js"></script>
