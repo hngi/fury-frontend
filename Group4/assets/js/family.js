@@ -1,6 +1,6 @@
 
 
-var myActive = document.getElementsByClassName("active");
+var myActive = document.getElementsByClassName("my-active");
 
 var myContainer = document.querySelector(".slide-show-wrapper");
 var myImg = document.getElementById("imgCon");
