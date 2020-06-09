@@ -12,12 +12,13 @@ html {
 }
 
 
-.banner {
+.bannerTop {
     height: 15em;
     background-image: url("../images/04-Rooms/header-image-4-other-page.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    margin-top: 150px;
     background-color: rgba(0, 0, 0, 0.596);
     background-blend-mode: multiply;
     color: white;
@@ -126,6 +127,12 @@ html {
     background-color: #eb392e;
     padding: 11px;
     text-align: center;
+}
+.details-btn:hover{
+    color: #EB392E;
+    background-color: white;
+    border: 1px solid #EB392E;
+    font-weight: 700;
 }
 
 

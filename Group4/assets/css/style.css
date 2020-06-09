@@ -9,6 +9,7 @@ body {
 .footer {
     color: #E5E5E5;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .footer:hover {
@@ -25,12 +26,15 @@ footer{
     color: #696969;
 }
 
+/* .footer img{
+    width: 90%;
+} */
+
 .contact-info {
     align-items: center;
     display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 1.75rem;
     text-align: left;
     line-height: 1.7;
     justify-content: space-between;
@@ -59,9 +63,14 @@ footer{
         margin-left: 35%;
     } */
       .contact-info {
+        padding-left: 0.8rem;
+        padding-right: 0.9rem;
         padding: 1%;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
     }
 } 
 
