@@ -1,4 +1,4 @@
-    html {
+html {
     font-size: 16px;
     line-height: 1.4;
     box-sizing: border-box;
@@ -12,14 +12,9 @@
 }
 
 
-nav {
-    height: 70px;
-    background-color: black;
-}
-
 .banner {
     height: 15em;
-    background-image: url(/assets/images/04-Rooms/header-image-4-other-page.jpg);
+    background-image: url("../images/04-Rooms/header-image-4-other-page.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -65,20 +60,20 @@ nav {
 }
 
 .image1 {
-    background-image: url(/assets/images/04-Rooms/StandardRoom.jpg);
+    background-image: url("../images/04-Rooms/StandardRoom.jpg");
 }
 
 .image2 {
-    background-image: url(/assets/images/04-Rooms/Deluxeeroom.jpg);
+    background-image: url("../images/04-Rooms/Deluxeeroom.jpg");
 }
 
 .image3 {
-    background-image: url(/assets/images/04-Rooms/family-rooms.jpg);
+    background-image: url("../images/04-Rooms/family-rooms.jpg");
 }
 
 
 .image4 {
-    background-image: url(/assets/images/04-Rooms/executive-rooms.jpg);
+    background-image: url("../images/04-Rooms/executive-rooms.jpg");
    
 }
 
@@ -124,16 +119,24 @@ nav {
     margin-left: 15px;
 }
 
-.btn {
+.details-btn {
     text-decoration: none;
     color: white;
     font-size: 14px;
-    background-color: red;
+    background-color: #eb392e;
     padding: 11px;
+    text-align: center;
 }
 
 
 @media screen and (max-width: 1024px) {
+    .banner h1 {
+        font-size: 7vw;
+    }
+    
+    .banner p {
+        font-size: 3vw;
+    }
     .pad {
         padding: 70px 20px 0 20px;
     }
@@ -157,7 +160,17 @@ nav {
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 500px) {
+    .pad{
+        padding: 30px 20px 0 20px;
+    }
+    .banner h1 {
+        font-size: 9vw;
+    }
+    
+    .banner p {
+        font-size: 4vw;
+    }
     .row-1, .row-2 {
         width:100%;
     }

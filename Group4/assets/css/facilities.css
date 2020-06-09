@@ -130,14 +130,13 @@ a {
 
 /*End of container css code */
 /* header */
-.header {
+.header-main {
     width: 100%;
     height: 259px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
     background-image: url(../images/01-HomePage/001-headerImage/headerImage-02.jpg);
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
