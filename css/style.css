@@ -7,6 +7,10 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+body {
+    background-color: #f7f7f8;
+}
+
 .column {
     padding-left: 0px;
     padding-right: 0px;
@@ -21,8 +25,29 @@ body{
 }
 
 .card {
-    margin:10px;
-    margin-bottom: 40px;
+    margin: 10px 60px 60px;
     padding-bottom: 10px;
-    background-color: #333;
+    background-color: #ffffff;
+}
+
+.card-about {
+    padding: 10px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hotel-facilitiesZ.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+    color: #fff;
+}
+
+.callout {
+    border: 0px;
+    margin: 0 0 3rem;
 }
