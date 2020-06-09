@@ -153,6 +153,79 @@
 
 
 
+
+
+
+/* Start of the amenities section =================================================================================================== */
+.amenities-details {
+    
+    padding: 2em 3em;
+    line-height: 156.19%;
+    font-size: 20px;
+    color: #393939;
+}
+
+.amenities-details h1 {
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+
+.amenities-details h1:after {
+    content:' ';
+    display:block;
+    border:1px solid #DADADA;
+}
+
+.list-amenities ul,
+.icon-list-two ul,
+.icon-list-one ul {
+    list-style: none;
+}
+
+
+
+
+
+.icon-list-two,
+.icon-list-one,
+.list-amenities {
+  width: 100%;
+}
+
+
+.icon-list-two ul li ,
+.icon-list-one ul li  {
+    /* font-weight: 800; */
+    font-size: 18px;
+}
+
+
+.icon-list-two ul li img,
+.icon-list-one ul li img {
+    margin-top: 1.6em;
+    margin-right: 0.5em;
+}
+
+@media only screen and (min-width: 800px) {
+    .list-amenities {
+        width: calc(100% / 2);
+    }
+     
+
+    .icon-list-two,
+    .icon-list-one {
+        width: calc(100% / 4);
+    }
+
+    .column {
+        float: left;
+      }
+
+}
+
+/* End of Style for the amenities section =================================================================================================== */
+
 @media only screen and (max-width:768px) {
     .slide-show-wrapper{
         height: 300px;
