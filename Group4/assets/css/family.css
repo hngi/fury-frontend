@@ -49,39 +49,34 @@
 #imgCon{
     width: 100%;
     height: inherit;
-    animation-name: fadeIn;
+    animation-name: slideOutLeft;
     animation-duration: 8s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-@keyframes fadeIn {
+
+@keyframes slideOutLeft {
     0% {
-        opacity: 0.1;
-        transform: scale3d(1, 1, 1);
+        opacity: 0.5;
       }
     5% {
         opacity: 0.5;
-        transform: scale3d(1, 1, 1);
     }
     10% {
         opacity: 0.9;
-        transform: scale3d(1, 1, 1);
     }
 
     15% {
         opacity: 1;
-        transform: scale3d(1, 1, 1);
     }
     
     85% {
         opacity: 1;
-        transform: scale3d(1, 1, 1);
       }
 
     100% {
-    opacity: 0.1;
-    transform: scale3d(3, 5, 3);
+    opacity: 0.5;
     }
 }
 
@@ -90,7 +85,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.active{
+.my-active{
     width: 15%;
     height: 50px;
     cursor: pointer;
@@ -158,7 +153,9 @@
 
 /* Start of the amenities section =================================================================================================== */
 .amenities-details {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 2em 3em;
     line-height: 156.19%;
     font-size: 20px;
@@ -184,16 +181,6 @@
 }
 
 
-
-
-
-.icon-list-two,
-.icon-list-one,
-.list-amenities {
-  width: 100%;
-}
-
-
 .icon-list-two ul li ,
 .icon-list-one ul li  {
     /* font-weight: 800; */
@@ -201,27 +188,18 @@
 }
 
 
-.icon-list-two ul li img,
-.icon-list-one ul li img {
+.icon-list-two ul li .detail-img,
+.icon-list-one ul li .detail-img {
     margin-top: 1.6em;
     margin-right: 0.5em;
 }
 
-@media only screen and (min-width: 800px) {
-    .list-amenities {
-        width: calc(100% / 2);
-    }
-     
-
+@media only screen and (max-width: 992px) {
     .icon-list-two,
-    .icon-list-one {
-        width: calc(100% / 4);
+    .icon-list-one,
+    .list-amenities {
+        margin: 10px;
     }
-
-    .column {
-        float: left;
-      }
-
 }
 
 /* End of Style for the amenities section =================================================================================================== */
@@ -230,6 +208,12 @@
     .slide-show-wrapper{
         height: 300px;
         margin-bottom: 1em;
+    }
+
+    .icon-list-two,
+    .icon-list-one,
+    .list-amenities {
+        width: 100%;
     }
 }
 
