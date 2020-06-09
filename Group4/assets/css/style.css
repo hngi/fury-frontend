@@ -23,7 +23,6 @@ Globals
                                         a:active,
                                         a:hover {
                                             text-decoration: none;
-                                            color: black;
                                         }
                                         
                                         .container {
@@ -102,11 +101,13 @@ hero section
                                             transition: .25s linear all;
                                             white-space: nowrap;
                                             text-align: center;
+                                            cursor: pointer;
                                         }
                                         
                                         .btn:hover,
                                         .btn:active {
                                             transform: scale(1.1);
+                                            color: #393939;
                                         }
                                         /* =====
 sections
@@ -242,20 +243,25 @@ Rooms
                                         
                                         .gallery {
                                             margin: 2em 0;
-                                            max-width: 1000px;
                                             display: grid;
                                             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
                                         }
                                         
                                         .gallery_image_wrapper {
                                             max-width: 350px;
-                                            border: 1px solid red;
+                                            margin: 0 auto;
+                                            border: 1px solid #EB392E;
                                         }
                                         
                                         .gallery_image {
                                             max-width: 100%;
                                             width: 100%;
                                             height: 100%;
+                                        }
+                                        
+                                        .gallery_image:hover {
+                                            transform: scale(1.4);
+                                            border: 1px solid #EB392E;
                                         }
                                         
                                         .gallery_btn {
