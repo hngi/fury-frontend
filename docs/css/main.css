@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Gotham';
+    src: local('Gotham'),
+         url('/assets/webfont/iCiel\ Gotham-Medium.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Gotham';
+    src: local('Gotham'),
+         url('/assets/webfont/iCiel\ Gotham-Thin.ttf') format("truetype");
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Gotham';
+}
+/* home section design */
+.home-img{
+    background: url(/assets/images/Homepage\ background\ image.png) no-repeat center center/cover;
+    height: 100%;
+}
+.home-row{
+    padding: 210px 0 0 0;
+}
+.home-col1{
+    padding: 0 0 60px 0;
+}
+.home-text{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.8);
+    font-weight: 500;
+    width: 100%;
+}
+.home-h2{
+    font-size: 45px;
+}
+.home-p{
+    font-size: 20px;
+    margin: 0 0 50px 0;
+}
+.reserve{
+    background-color: #344A71;
+    font-weight: 500;
+    font-size: 28px;
+}
+.reserve:hover{
+    text-decoration: none;
+}
+.book-row{
+    background-color: #FFFFFF;
+}
+.check-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.check{
+    border: 3px solid #344A71;
+    font-size: 10px;
+    font-weight: 700;
+    color: #344A71;
+    padding: 6px;
+    margin: 20px 24px 20px 25.2px;
+}
+.home-input{
+    height: 30px !important;
+    background-color: none !important;
+    border: none !important;
+    font-weight: 800 !important;
+}
+.book{
+    background-color: #344A71;
+    font-weight: 700;
+    font-size: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* about section design */
+#about{
+    margin: 100px 0;
+}
+.h3-edit{
+    color: #344A71;
+    font-weight: 600;
+    font-size: 45px;
+}
+.p-edit{
+    color: rgba(0, 0, 0, 0.8);
+}
+.about-img{
+    max-width: 100%;
+    height: auto;
+}
+.read{
+    background-color: #344A71;
+    font-weight: 500;
+    height: 30px;
+    width: 110px;
+}
+/* what people say section design */
+#what{
+    background-color: #F7F7F8;
+    padding: 50px 0;
+}
+
+.what-img{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+}
+.comma{
+    background-color: #344A71;
+}
+/* our galleries styling */
+
+.gallery-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+    text-align: center;
+}
+
+.gallery-h2 {
+	font-family: Gotham Bold;
+	color: #344A71;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 46px;
+    line-height: 48px;
+    margin: 50px 0 20px 0;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 8px 8px;
+	padding: 2rem;
+	margin-left: 3rem;
+}
+
+.column {
+	flex: 100%;
+	max-width: 100%;
+	padding: 0 5px;
+}
+
+.cell-2, .cell-4, .cell-6 {
+	display: flex;
+	align-self: stretch;
+}
+
+.gallery-img {
+	margin-top: 12px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.gallery-img:hover{
+	cursor: pointer;
+}
+
+/*button controls/The dots/indicators*/
+.dot {
+	cursor: pointer;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	height: 20px;
+	width: 20px;
+	margin-bottom: 3rem;
+	background-color: #bbb;
+	border-radius: 50%;
+}
+
+.active, .dot:hover{
+	background-color: #717171;
+}
+
+
+/* Media queries for responsiveness to medium screens*/
+
+@media screen and (max-width: 800px) {
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 8px 8px;
+	padding: 2rem;
+	margin-left: 1rem;
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+}
+}
+
+/*Media queries for responsiveness to small screens*/
+@media screen and (max-width: 600px){
+.gallery-h2 {
+  font-size: 30px;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 8px 8px;
+	padding: 2rem;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+}
+}
