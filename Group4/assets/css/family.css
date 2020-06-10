@@ -15,6 +15,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: teal;
+    margin-top: 100px;
 }
 .page-header-overlay{
     display: flex;
@@ -28,7 +29,7 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 5vw;
 }
 /* Style for the page-header section =================================================================================================== */
 
@@ -222,7 +223,7 @@
         height: 150px;
     }
     .page-header-overlay{
-        font-size: 1rem;
+        font-size: 6vw;
     }
     .slide-show-wrapper{
         height: 200px;
