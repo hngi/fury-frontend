@@ -1,5 +1,18 @@
-* {
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
 }
 
 .text-center {
@@ -18,33 +31,207 @@
 
 .gallery-container,
 .about-us-container,
-.testimonial-container {
-  margin-top: 90px;
+.testimonial-container,
+.image-wrapper,
+.image-wrapper2 {
+  margin-top: 40px;
 }
 
-main {
-  margin: auto;
+.bannerTop {
+  height: 25em;
+  background-image: url("../images/01-HomePage/001-headerImage/headerImage-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.596);
+  background-blend-mode: multiply;
+  margin-top: 90px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bannerTop h1 {
+  font-size: 4.5vw;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bannerTop p {
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 600;
+  width: 100%;
+  text-align: center;
+  padding: 0px 0 20px 0;
+  position: relative;
+}
+
+h2 hr {
+  width: 6%;
+  margin: 0.3em auto 0 auto;
+  height: 5px;
+  background-color: #eb392e;
+  border-radius: 1em;
+  border: none;
+}
+
+.details-btn {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  background-color: #eb392e;
+  padding: 15px 30px;
+  text-align: center;
+  border: 1px solid #EB392E;
+
+}
+
+.details-btn:hover {
+  color: #EB392E;
+  background-color: white;
+  border: 1px solid #EB392E;
+  font-weight: 700;
+}
+
+.section {
   width: 90%;
-  padding: 5px;
+  margin: 80px auto 0 auto;
+}
+
+.image-wrapper,
+.image-wrapper2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper-content1 {
+  background-image: url("../images/01-HomePage/002-welcome2dumont/GreatLocation.jpg");
+}
+
+.wrapper-content2 {
+  background-image: url("../images/01-HomePage/002-welcome2dumont/LuxuryRoom.jpg");
+}
+
+.wrapper-content3 {
+  background-image: url("../images/01-HomePage/002-welcome2dumont/DeliciousFoods.jpg");
+}
+
+.wrapper-content4 {
+  background-image: url("../images/01-HomePage/002-welcome2dumont/GreatService.jpg");
+}
+
+.room-image1 {
+  background-image: url("../images/01-HomePage/002-welcome2dumont/LuxuryRoom.jpg");
+}
+
+.room-image2 {
+  background-image: url("../images/01-HomePage/003-OurRoom_suites/DeluxeRoom.jpg");
+}
+
+.room-image3 {
+  background-image: url("../images/01-HomePage/003-OurRoom_suites/ExecutiveSuite.jpg");
+}
+
+.wrapper-content1,
+.wrapper-content2,
+.wrapper-content3,
+.wrapper-content4,
+.room-image1,
+.room-image2,
+.room-image3 {
+  height: 16em;
+  width: 24%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.596);
+  background-blend-mode: multiply;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.room-image1,
+.room-image2,
+.room-image3 {
+  height: 30vw;
+  width: 29vw;
+  justify-content: flex-end;
+  background-blend-mode: normal;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.room-image1 p,
+.room-image2 p,
+.room-image3 p {
+  height: 15%;
+  width: 100%;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.room-image1:hover p {
+  height: 100%;
+  font-size: 1.3em;
+}
+
+.room-image2:hover p {
+  height: 100%;
+  font-size: 1.3em;
+}
+
+.room-image3:hover p {
+  height: 100%;
+  font-size: 1.3em;
 }
 
 .about-us-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
 }
 
-@media(max-width:780px) {
-  .about-us-container {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-    text-align: center;
-  }
-
-  .about-us-image {
-    justify-self: center;
-  }
+.about-us-container .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.about-us-image{
+  display: none;
+  background-image: url('../images/01-HomePage/004-AboutUs/AboutUs.jpg');
+  width: 50%;
+  height: 300px;
+}
+
+.about-us-container div a {
+  max-width: fit-content;
+}
+
+
 
 .about-us-text {
   align-self: flex-end;
@@ -54,20 +241,21 @@ main {
   margin: 0 1em;
 }
 
-.about-us-text {
-  font-size: 24px;
+.about-us-text,
+.section .suite-text {
+  font-size: 1.3em;
   line-height: 185.19%;
 }
 
-.slide-text {
+.section .suite-text {
+  text-align: center;
+}
 
-  height: 132px;
-  left: 395px;
-  top: 4791px;
-  font-family: Raleway;
+.slide-text {
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.2em;
   line-height: 185.19%
 }
 
@@ -93,6 +281,10 @@ button {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2em;
+}
+
+.testimonial-container img {
+  border-radius: 50%;
 }
 
 .slide {
@@ -138,40 +330,124 @@ button {
   }
 }
 
-@media(max-width:560px) {
-  .about-us-container {
-    display: inline-block;
+@media screen and (max-width: 560px) {
+  .bannerTop {
+    height: 20em;
   }
 
-  .about-us-text {
-    width: auto;
-    height: 476px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 185.1%;
+  .gallery-container,
+  .about-us-container,
+  .testimonial-container,
+  .image-wrapper,
+  .image-wrapper2 {
+    margin-top: 25px;
   }
 
-  .about-us-image {
+  .bannerTop h1 {
+    font-size:2em;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .bannerTop p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+
+  }
+
+
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 600;
     width: 100%;
-    margin-right: 0;
+    text-align: center;
+    padding: 0px 0 20px 0;
+    position: relative;
   }
 
-  .slide-text {
+  .section {
     width: 100%;
-    height: 132px;
-    left: 395px;
-    top: 4791px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 185.19%
+    margin: 80px auto 0 auto;
   }
+
+  .image-wrapper,
+  .image-wrapper2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .gallery-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-container .image-holder {
+    width: 50%;
+    height: 40vw;
+
+  }
+
+  .gallery-container .image-holder img {
+    width: 100%;
+  }
+
+  .wrapper-content1,
+  .wrapper-content2,
+  .wrapper-content3,
+  .wrapper-content4,
+  .room-image1,
+  .room-image2,
+  .room-image3 {
+    height: 19em;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .room-image1,
+  .room-image2,
+  .room-image3 {
+    width: 100%;
+    justify-content: flex-end;
+    background-blend-mode: normal;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 1em;
+  }
+
+  .room-image1 p,
+  .room-image2 p,
+  .room-image3 p {
+    height: 15%;
+    width: 100%;
+    padding: 15px 10px;
+  }
+
 }
 
-@media(max-width:1024px) {
-  .active-slide {
-    display: inline-block;
-    text-align: center;
+@media screen and (max-width: 320px) {
+  .gallery-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-container .image-holder {
+    width:100%;
+    height: 200px;
+
+  }
+
+  .gallery-container .image-holder img {
+    width: 100%;
   }
 }
