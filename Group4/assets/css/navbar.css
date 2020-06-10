@@ -18,13 +18,13 @@ header {
 
 nav {
     display: grid;
-    grid-template-columns: .7fr .8fr .2fr;
+    grid-template-columns: .7fr .9fr .2fr;
     padding: 20px 25px 20px 40px;
     align-items: center;
 }
 
 .navbar-nav {
-    justify-self: center;
+    justify-self: right;
     margin: 0 !important;
 }
 
@@ -84,7 +84,6 @@ a {
 .btn {
     color: white;
     max-width: 120px;
-    height: 56px;
     padding: 15px;
     background: #EB392E;
     border-radius: 5px;
@@ -129,7 +128,8 @@ a {
     position: fixed;
     width: 300px;
     padding: 50px;
-    left: 0;
+    top: 0;
+    z-index: 100;
     padding-top: 125px;
     background: white;
     list-style-type: none;
