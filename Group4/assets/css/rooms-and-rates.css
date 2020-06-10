@@ -18,7 +18,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 80px;
+    margin-top: 90px;
     background-color: rgba(0, 0, 0, 0.596);
     background-blend-mode: multiply;
     color: white;
@@ -29,12 +29,12 @@ html {
     text-align: center;
 }
 
-.banner h1 {
+.bannerTop h1 {
     font-size: 6.5vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.banner p {
+.bannerTop p {
     font-size: 2.5vw;
 }
 
@@ -50,18 +50,14 @@ html {
     text-align: center;
 }
 
-.row-1,
-.row-2 {
+.row-1, .row-2 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 80px;
 }
 
-.standard,
-.deluxe,
-.family,
-.executive {
-    width: 40%;
+.standard, .deluxe, .family, .executive {
+    width: 40%;  
 }
 
 .image1 {
@@ -79,13 +75,10 @@ html {
 
 .image4 {
     background-image: url("../images/04-Rooms/executive-rooms.jpg");
-
+   
 }
 
-.image1,
-.image2,
-.image3,
-.image4 {
+.image1, .image2, .image3, .image4 {
     display: flex;
     align-items: flex-end;
     height: 15em;
@@ -135,8 +128,7 @@ html {
     padding: 11px;
     text-align: center;
 }
-
-.details-btn:hover {
+.details-btn:hover{
     color: #EB392E;
     background-color: white;
     border: 1px solid #EB392E;
@@ -145,14 +137,13 @@ html {
 
 
 @media screen and (max-width: 1024px) {
-    .banner h1 {
+    .bannerTop h1 {
         font-size: 7vw;
     }
-
-    .banner p {
+    
+    .bannerTop p {
         font-size: 3vw;
     }
-
     .pad {
         padding: 70px 20px 0 20px;
     }
@@ -163,38 +154,31 @@ html {
         padding: 70px 20px 0 20px;
     }
 
-    .row-1,
-    .row-2 {
+    .row-1, .row-2 {
         justify-content: center;
         flex-direction: column;
-        width: 80%;
-        margin: 0 auto 0 auto;
+        width:80%;
+        margin:0 auto 0 auto;
     }
 
-    .standard,
-    .deluxe,
-    .family,
-    .executive {
+    .standard, .deluxe, .family, .executive {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 30px;  
     }
 }
 
 @media screen and (max-width: 500px) {
-    .pad {
+    .pad{
         padding: 30px 20px 0 20px;
     }
-
-    .banner h1 {
+    .bannerTop h1 {
         font-size: 9vw;
     }
-
-    .banner p {
+    
+    .bannerTop p {
         font-size: 4vw;
     }
-
-    .row-1,
-    .row-2 {
-        width: 100%;
+    .row-1, .row-2 {
+        width:100%;
     }
 }
