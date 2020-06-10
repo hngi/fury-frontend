@@ -18,13 +18,13 @@ header {
 
 nav {
     display: grid;
-    grid-template-columns: .7fr .8fr .2fr;
-    padding: 20px 25px 20px 40px;
+    grid-template-columns: .7fr .9fr .2fr;
+    padding: 20px 25px 20px 20px;
     align-items: center;
 }
 
 .navbar-nav {
-    justify-self: center;
+    justify-self: right;
     margin: 0 !important;
 }
 
@@ -84,7 +84,6 @@ a {
 .btn {
     color: white;
     max-width: 120px;
-    height: 56px;
     padding: 15px;
     background: #EB392E;
     border-radius: 5px;
@@ -129,7 +128,8 @@ a {
     position: fixed;
     width: 300px;
     padding: 50px;
-    left: 0;
+    top: 0;
+    z-index: 100;
     padding-top: 125px;
     background: white;
     list-style-type: none;
@@ -159,12 +159,15 @@ a {
         align-items: center;
         text-align: center;
     }
+
     .navbar-nav {
         display: none;
     }
+
     .btn-header {
         display: none;
     }
+
     .bar-container {
         display: inline-block;
         cursor: pointer;
@@ -176,15 +179,23 @@ a {
     nav {
         grid-template-columns: .2fr .9fr .2fr;
     }
+
     .active {
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     }
 }
 
+@media(max-width:992px) {
+    nav {
+        grid-template-columns: .1fr 1fr .2fr;
+    }
+}
+
 .banner {
     width: 100%;
-    background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/01-HomePage/001-headerImage/headerImage-01.jpg);
+    background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/01-HomePage/001-headerImage/headerImage-01.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
