@@ -1,0 +1,322 @@
+body{
+    /* THIS IS DONE TO OMIT THE DFAULT PADDING AND MARGIN */
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+   background-color: rgb(226, 226, 226);
+  
+}
+
+.Nav a{
+    color: white;
+     text-decoration: none;
+     border-bottom: 2px solid transparent;
+     transition:1s;
+}
+
+
+
+.Nav{
+font-family: sans-serif;
+display: flex;
+background-color: rgb(55, 45, 92);
+max-height: 4em;
+width: 100%;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+}
+
+/* FOR THE LUXARY HOTEL TAG */
+.span_class1 a{
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    transition: 1s;
+}
+
+.span_class1{
+    padding-left: 2em;
+      
+}
+.span_class1  :hover{
+    transition: 800ms;
+    padding: .5em .3em .5em 0em;
+    border-color: white;
+}
+
+.span_class1 h2,h3{
+display: inline;
+}
+
+
+
+
+
+/* FOR THE NAVIGATION LINKS */
+
+.span_class2{
+position: absolute;
+right: 2em;
+font-weight: bold;
+}
+
+
+
+/* FOR ONLY THE COMMON LINKS LIKE HOME ETC */
+
+.span_class3{
+padding-right: 1em;
+
+}
+.span_class3  :hover{
+    transition: 500ms;
+    border-color: white;
+}
+.span_class3  :active{
+   
+    border-color: white;
+}
+
+#Navlinks{
+    font-size: .8em;
+    padding-right: .4em;
+    padding-bottom: 0;
+}
+
+
+
+
+/* FOR THE SIGN UP LINK */
+
+
+#Signup_btn{
+    font-size: .9em;
+border-style: solid;
+border-color: white;
+border-radius: 3px;
+border-width: 1.2px;
+padding: 5px;
+transition:1s;
+}
+
+#Signup_btn :hover{
+    transition: 800ms;
+    padding: .5em .5em .5em .5em;
+}
+/* end of the Navigation bar */
+
+
+
+/* THE SLOGAN  BEFORE THE MAIN COMTENTS */
+.slogan{
+   
+    margin: 0%;
+
+    line-height: 2em;
+    background-position: center;
+    text-align: center;
+    height: 20em;
+    color: white;
+   
+}
+
+.slogan img{
+    width: 100%;
+    height: 20em;
+    
+}
+#slogan_content{
+    position: absolute;
+    padding: 1em;
+    top: 4.7em;
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 18em;
+}
+
+
+
+/* THE MAIN CONTANT STYLING */
+#main{
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7em;
+    
+}
+
+
+/* FOR THE GENERAL CARD STYLING  */
+.card{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    max-height:700px ;
+    width: 500px;
+    padding: 0%;
+    margin: 2em;
+    box-shadow: 5px 10px 8px #888888;
+}
+.card p{
+    padding: .5em 1em 1em 1em;
+}
+
+
+
+.card img{
+    width: 500px;
+    height: 300px;
+}
+
+/* FOR THE CARD BUTTON THAT LOOKS LIKE A TAG */
+.card_btn{
+
+background-color: rgba(0, 0, 0, 0.767);
+padding: .5em;
+width: 10em;
+color: blanchedalmond;
+transition: 1s ease;
+}
+
+.card_btn:hover{
+
+    background-color:  rgb(55, 45, 92);
+    width: 12em;
+    transition: 1s ease;
+    }
+    
+
+
+#emailform{
+    color: white;
+    background-color: transparent;
+    margin-bottom: 5em;
+}
+
+#emailform input[type="email"]{
+    color: white;
+    background-color: transparent;
+    border-radius: 2px;
+    border-color: blanchedalmond;
+    height: 2em;
+    width: 20em;
+    cursor: pointer;
+}
+button{
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    margin-left:1em ;
+    height: 3em;
+    width: 15em;
+    transition: 1s ease;
+}
+
+button:hover{
+    color:  rgb(55, 45, 92);;
+    background-color: rgb(255, 255, 255);
+    transition: 1s ease;
+}
+
+footer{
+    background-color: rgb(55, 45, 92);
+    padding: 2em 2em 1em 2em ;
+}
+
+footer a{
+    color: white;
+     text-decoration: none;
+     border-bottom: 2px solid transparent;
+     border-left: 2px solid white;
+     transition:1s;
+     padding-left: 1em;
+}
+footer a:hover{
+font-size: larger;
+    transition: 1s;
+}
+
+#copywrite{
+    color: white;
+    font-style: italic;
+    margin-right: 5em;
+}
+
+
+
+/* FOR DASIC MOBILE STYLING */
+@media screen and (max-width:640px){
+.span_class3{
+    display: block;
+}
+
+#Navlinks{
+    display: block;
+    margin: 0em 0em 0em 0em;
+    padding: 1em ;
+}
+
+/* FOR MOBILE DORP DOWN */
+.span_class3{
+    z-index: 2;
+position: absolute;
+left: -2.4em;
+top:3.2em;
+padding: 1.5em;
+background-color: rgba(7, 11, 63, 0.644);
+
+}
+
+.span_class3 div{
+    padding: 0em 0em 4em 0em;
+    margin: 0em 2em 1em 1em;
+   
+}
+
+#main{
+    padding-left: 0em;
+}
+
+/* cards edit style */
+.card{
+    color: black;
+background-color: rgb(255, 255, 255);
+max-height:500px ;
+width: 300px;
+
+}
+
+
+
+.card img{
+    width: 300px;
+    height: 200px;
+}
+
+
+#footerlinks{
+margin: 1em 2em 2em 0em;
+font-size: .7em;
+
+}
+/* FOOTER STYLINGS */
+
+#copywrite{   
+    font-size: .8em;
+}
+
+#footerlinks a{
+padding-left: 0.5em;
+}
+
+footer{
+    padding: 1em;
+}
+
+#emailform button{
+    margin-top: .5em;
+    padding-left: 0em;
+
+}
+}
