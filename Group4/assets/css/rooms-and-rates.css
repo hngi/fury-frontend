@@ -11,14 +11,13 @@ html {
     margin: 0;
 }
 
-
 .bannerTop {
     height: 15em;
     background-image: url("../images/04-Rooms/header-image-4-other-page.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 90px;
+    margin-top: 150px;
     background-color: rgba(0, 0, 0, 0.596);
     background-blend-mode: multiply;
     color: white;
@@ -29,12 +28,12 @@ html {
     text-align: center;
 }
 
-.bannerTop h1 {
+.banner h1 {
     font-size: 6.5vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.bannerTop p {
+.banner p {
     font-size: 2.5vw;
 }
 
@@ -50,14 +49,18 @@ html {
     text-align: center;
 }
 
-.row-1, .row-2 {
+.row-1,
+.row-2 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 80px;
 }
 
-.standard, .deluxe, .family, .executive {
-    width: 40%;  
+.standard,
+.deluxe,
+.family,
+.executive {
+    width: 40%;
 }
 
 .image1 {
@@ -72,13 +75,14 @@ html {
     background-image: url("../images/04-Rooms/family-rooms.jpg");
 }
 
-
 .image4 {
     background-image: url("../images/04-Rooms/executive-rooms.jpg");
-   
 }
 
-.image1, .image2, .image3, .image4 {
+.image1,
+.image2,
+.image3,
+.image4 {
     display: flex;
     align-items: flex-end;
     height: 15em;
@@ -128,20 +132,19 @@ html {
     padding: 11px;
     text-align: center;
 }
-.details-btn:hover{
+
+.details-btn:hover {
     color: #EB392E;
     background-color: white;
     border: 1px solid #EB392E;
     font-weight: 700;
 }
 
-
 @media screen and (max-width: 1024px) {
-    .bannerTop h1 {
+    .banner h1 {
         font-size: 7vw;
     }
-    
-    .bannerTop p {
+    .banner p {
         font-size: 3vw;
     }
     .pad {
@@ -153,32 +156,34 @@ html {
     .pad {
         padding: 70px 20px 0 20px;
     }
-
-    .row-1, .row-2 {
+    .row-1,
+    .row-2 {
         justify-content: center;
         flex-direction: column;
-        width:80%;
-        margin:0 auto 0 auto;
+        width: 80%;
+        margin: 0 auto 0 auto;
     }
-
-    .standard, .deluxe, .family, .executive {
+    .standard,
+    .deluxe,
+    .family,
+    .executive {
         width: 100%;
-        margin-bottom: 30px;  
+        margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .pad{
+    .pad {
         padding: 30px 20px 0 20px;
     }
-    .bannerTop h1 {
+    .banner h1 {
         font-size: 9vw;
     }
-    
-    .bannerTop p {
+    .banner p {
         font-size: 4vw;
     }
-    .row-1, .row-2 {
-        width:100%;
+    .row-1,
+    .row-2 {
+        width: 100%;
     }
 }
