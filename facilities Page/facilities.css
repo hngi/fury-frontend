@@ -1,0 +1,152 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Gotham', sans-serif;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.facilities-intro{
+    background-image: url('https://res.cloudinary.com/dev-sam/image/upload/v1591774082/t1s6dftrvoarawu0xmfz.png');
+    background-size: 100%;
+    color: #fff;
+    height: 50%;
+    width: 100%;
+  
+    display: flex;
+  
+}
+
+.facilities-intro section{
+    background: rgba(0, 0, 0, 0.62);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.facilities-intro h2{
+    font-weight:bold;
+    color:#fff;
+    text-align: center;
+    font-size: 50px;
+    line-height: 48px;
+    margin-top: 4rem;
+
+}
+
+.facilities-intro p{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 350;
+    text-align: center;
+    margin: 0 4rem;
+}
+
+.facilities-container{
+    margin: 5rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+.facilities-container img{
+    width: 100%;
+    height: 70%;
+}
+
+.facilities-box{
+    width: 60%; 
+    justify-content:center;
+    
+}
+.facilities-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
+    transition: 0.3s;
+    padding: 0.3rem;
+}
+
+.facilities-shadow:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0, 0, 0.2);
+}
+
+.facilities-box p{
+  padding:0.6rem;
+}
+
+.facilities-margin{
+    margin-right: 3rem;
+    
+}
+
+
+
+@media screen and (max-width:996px){
+    .facilities-intro{
+        height: 40%;
+        text-align: center;
+    }
+    .facilities-intro h2{
+        font-size: 50px;
+        line-height: 45px;
+        margin-top: 6rem;
+    }
+    .facilities-intro p{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 4rem;
+    }
+    .facilities-container{
+        display: block;
+        margin: 2rem;
+    }
+    .facilities-box{
+        width: 100%;
+    }
+
+    @media screen and (max-width:480px){
+        .facilities-intro{
+            height: 30%;
+        }
+        .facilities-intro h2{
+            font-size: 40px;
+            line-height: 30px;
+            margin-top: 2rem;
+        }
+        .facilities-intro p{
+            font-size: 16px;
+            line-height: 18px;
+            margin: 0 4rem;
+        }
+        .facilities-container{
+            margin: 1rem;
+            display: block;
+            
+        }
+    
+        .facilities-margin{
+            margin-bottom: 1rem;
+            margin-right: 0;
+            
+        }
+    
+        .facilities-box{
+            width: 100%;
+        }
+    
+    }
+    
+
+    .facilities-margin{
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+        
+    }
+}
+
+
