@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/family.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>deluxe room Dumont Hotel</title>
+</head>
+
+
+<body onload="mySlideShow()">
+
+    <!-- this overall-container covers the whole thing inside the page -->
+    <div class="overall-container">
+
+        <!-- Navigation Bar -->
+        <header>
+            <nav>
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-responsive" src="assets/images/logos/header-logo.png" alt="logo">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="rooms-and-rates.html">Rooms</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="contact.html">Contact us</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="facilities.html">Facilities</a></li>
+                </ul>
+                <a class="btn btn-header" href="#"> Book Now</a>
+                <div class="bar-container" onclick="toggler(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </nav>
+
+        </header>
+        <!-- side navigation -->
+        <ul class="sidemenu">
+            <li> <a class="nav-link" href="index.html">Home</a></li>
+            <li> <a class="nav-link" href="family-room.html">Rooms</a></li>
+            <li> <a class="nav-link" href="contact.html">Contact us</a></li>
+            <li> <a class="nav-link" href="facilities.html">Facilities</a></li>
+            <li>
+                <a class="btn" href="#"> Book Now</a>
+            </li>
+        </ul>
+        <!-- sidenavigation -->
+        <!-- End Navigation Bar -->
+
+
+        <!-- page-header describes the page name FAMILY ROOM -->
+        <div class="page-header">
+            <div class="page-header-overlay">deluxe room</div>
+        </div>
+        <!-- END of page-header that describes the page name FAMILY ROOM -->
+
+
+        <!-- slide-show div contains the slide picture and the pictures below it -->
+        <div class="slide-show">
+
+            <div class="slide-show-wrapper" id="demo">
+                <img id="imgCon" src="assets/images/04-Rooms/Deluxeeroom.jpg" alt="SlideImage">
+
+                <div class="nextCon">
+                    <button class="previous" onclick="myNext(this)">
+                        <</button> <button class="next" onclick="myNext(this)">>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="activeCon">
+                <div value="0" class="my-active" onclick="myActiveSlide(this)">
+                    <img class="small-image" src="assets/images/04-Rooms/Deluxeeroom.jpg" alt="SlideImage">
+                </div>
+                <div value="1" class="my-active" onclick="myActiveSlide(this)">
+                    <img class="small-image" src="assets/images/04-Rooms/executive-rooms.jpg" alt="SlideImage">
+                </div>
+                <div value="2" class="my-active" onclick="myActiveSlide(this)">
+                    <img class="small-image" src="assets/images/04-Rooms/family-rooms.jpg" alt="SlideImage">
+                </div>
+                <div value="3" class="my-active" onclick="myActiveSlide(this)">
+                    <img class="small-image" src="assets/images/04-Rooms/img-005.jpg" alt="SlideImage">
+                </div>
+                <div value="4" class="my-active" onclick="myActiveSlide(this)">
+                    <img class="small-image" src="assets/images/04-Rooms/StandardRoom.jpg" alt="SlideImage">
+                </div>
+            </div>
+
+        </div>
+        <!-- slide-show div contains the slide picture and the pictures below it -->
+
+        <!-- overview section div -->
+        <div class="overview">
+            <h1>Overview</h1>
+            <p>Guests staying in our 22 sqm (237 sq ft) Standard Twin Rooms enjoy an elegant and modern design providing
+                a comfortable living throughout your stay whether you are on business or leisure. Relax in our fresh,
+                stylish, air conditioned Guest Rooms, where you can enjoy a restful night’s sleep and work in comfort at
+                the spacious desk.</p>
+
+            <p> Relax and watch movies on the 32-inch LCD TV and surf the web with WiFi access. These rooms also feature
+                a mini-fridge, hair dryer and an iron/ironing board on request to make you feel at home.</p>
+
+        </div>
+        <!-- END of overview section div -->
+
+
+        <!-- Amenities and Detail div -->
+        <div class="amenities-details">
+            <div class="list-amenities">
+                <h1>Amenities</h1>
+                <ul>
+                    <li>Air-conditioned</li>
+                    <li>2 bathrooms</li>
+                    <li>One King bed</li>
+                    <li>32” Flat Screen</li>
+                    <li>Spacious working desk with WiFi internet</li>
+                    <li>Wardrobe</li>
+                    <li>Safe</li>
+                </ul>
+
+            </div>
+
+            <div class="icon-list-one">
+                <h1>Details</h1>
+                <ul>
+                    <li> <img class="detail-img" src="assets/images/Amenities-icons/People.png" alt=""> <b>Adults</b>
+                    </li>
+                    <li> <img class="detail-img" src="assets/images/Amenities-icons/Drag.png" alt=""> <b>Size</b></li>
+                    <li> <img class="detail-img" src="assets/images/Amenities-icons/Opened Folder.png" alt="">
+                        <b>Categories</b></li>
+                </ul>
+            </div>
+
+            <div class="icon-list-two">
+                <h1>.</h1>
+                <ul>
+                    <li><img class="detail-img" src="assets/images/Amenities-icons/Children.png" alt=""> <b>Children</b>
+                    </li>
+                    <li> <img class="detail-img" src="assets/images/Amenities-icons/Bed.png" alt=""><b>Bed Type</b></li>
+                    <li> <img class="detail-img" src="assets/images/Amenities-icons/Binoculars.png" alt=""> <b>View</b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END of Amenities and Detail div -->
+
+        <!-- my footer div -->
+        <footer>
+
+            <div class="contact-info">
+                <div class="footer footer-logo contain"><a href="index.html"><img
+                            src="assets/images/logos/footer-logo.png" alt="dumont logo" srcset=""></a></div>
+                <div>
+                    <p class="middle-text contain"><a class="footer">Plot 411, Musa Aliro close,</a><br>
+                        <a class="footer" href="#">Maitama, Abuja.</a><br>
+                        <a class="footer" href="tel: (+234)803-221-7768">(+234)803-221-7768</a><br>
+                        <a class="footer" href="(+01)1717087">(+01)1717087</a><br>
+                        <a class="footer" href="mailto: contact@dumont.com">contact@dumont.com</a><br>
+                        <a class="footer" href="mailto: reservation@dumont.com">reservation@dumont.com</a></p>
+                </div>
+                <div>
+                    <p class="right-text contain"><a class="footer" href="#rooms">Accomodation</a><br>
+                        <a class="footer" href="gallery">Gallery</a><br>
+                        <a class="footer" href="#">Terms & Conditions</a><br>
+                        <a class="footer" href="about-us">About</a><br>
+                        <a class="footer" href="mailto: contact@dumont.com">Contact Us</a><br>
+                        <a class="footer" href="#book">Membership</a></p>
+                </div>
+            </div>
+
+        </footer>
+        <!-- END of footer div -->
+
+    </div>
+    <!-- END of overall-container that covers the whole thing inside the page -->
+
+    <script src="assets/js/family.js"></script>
+    <script src="assets/js/main.js" async></script>
+
+</body>
+
+</html>
