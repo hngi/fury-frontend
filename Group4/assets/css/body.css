@@ -1,32 +1,32 @@
 html {
-  font-size: 16px;
-  line-height: 1.4;
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 * {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 main {
-  width: 100%;
+    width: 100%;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .border {
-  border: #EB392E solid 4px;
-  width: 52px;
-  margin: auto;
+    border: #EB392E solid 4px;
+    width: 52px;
+    margin: auto;
 }
 
 .mt-2 {
-  margin: 80px 0;
+    margin: 80px 0;
 }
 
 .gallery-container,
@@ -34,115 +34,115 @@ main {
 .testimonial-container,
 .image-wrapper,
 .image-wrapper2 {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .bannerTop {
-  height: 25em;
-  background-image: url("../images/01-HomePage/001-headerImage/headerImage-01.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: rgba(0, 0, 0, 0.596);
-  background-blend-mode: multiply;
-  margin-top: 90px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    height: 25em;
+    background-image: url("../images/01-HomePage/001-headerImage/headerImage-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: multiply;
+    margin-top: 90px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .bannerTop h1 {
-  font-size: 4.5vw;
-  letter-spacing: 2px;
-  margin-bottom: 25px;
-  font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5vw;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .bannerTop p {
-  font-size: 1.5vw;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
-
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 600;
-  width: 100%;
-  text-align: center;
-  padding: 0px 0 20px 0;
-  position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 600;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0 20px 0;
+    position: relative;
 }
 
 h2 hr {
-  width: 6%;
-  margin: 0.3em auto 0 auto;
-  height: 5px;
-  background-color: #eb392e;
-  border-radius: 1em;
-  border: none;
+    width: 6%;
+    margin: 0.3em auto 0 auto;
+    height: 5px;
+    background-color: #eb392e;
+    border-radius: 1em;
+    border: none;
 }
 
 .details-btn {
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  background-color: #eb392e;
-  padding: 15px 30px;
-  text-align: center;
-  border: 1px solid #EB392E;
-  width:150px;
-
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background-color: #eb392e;
+    padding: 15px 30px;
+    text-align: center;
+    border: 1px solid #EB392E;
+    width: 150px;
+    margin-top: 1em;
 }
 
 .details-btn:hover {
-  color: #EB392E;
-  background-color: white;
-  border: 1px solid #EB392E;
-  font-weight: 700;
+    color: #EB392E;
+    background-color: white;
+    border: 1px solid #EB392E;
+    font-weight: 700;
 }
 
 .section {
-  width: 90%;
-  margin: 80px auto 0 auto;
+    width: 90%;
+    margin: 80px auto 0 auto;
 }
 
 .image-wrapper,
 .image-wrapper2 {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .wrapper-content1 {
-  background-image: url("../images/01-HomePage/002-welcome2dumont/GreatLocation.jpg");
+    background-image: url("../images/01-HomePage/002-welcome2dumont/GreatLocation.jpg");
 }
 
 .wrapper-content2 {
-  background-image: url("../images/01-HomePage/002-welcome2dumont/LuxuryRoom.jpg");
+    background-image: url("../images/01-HomePage/002-welcome2dumont/LuxuryRoom.jpg");
 }
 
 .wrapper-content3 {
-  background-image: url("../images/01-HomePage/002-welcome2dumont/DeliciousFoods.jpg");
+    background-image: url("../images/01-HomePage/002-welcome2dumont/DeliciousFoods.jpg");
 }
 
 .wrapper-content4 {
-  background-image: url("../images/01-HomePage/002-welcome2dumont/GreatService.jpg");
+    background-image: url("../images/01-HomePage/002-welcome2dumont/GreatService.jpg");
 }
 
 .room-image1 {
-  background-image: url("../images/01-HomePage/002-welcome2dumont/LuxuryRoom.jpg");
+    background-image: url("../images/01-HomePage/002-welcome2dumont/LuxuryRoom.jpg");
 }
 
 .room-image2 {
-  background-image: url("../images/01-HomePage/003-OurRoom_suites/DeluxeRoom.jpg");
+    background-image: url("../images/01-HomePage/003-OurRoom_suites/DeluxeRoom.jpg");
 }
 
 .room-image3 {
-  background-image: url("../images/01-HomePage/003-OurRoom_suites/ExecutiveSuite.jpg");
+    background-image: url("../images/01-HomePage/003-OurRoom_suites/ExecutiveSuite.jpg");
 }
 
 .wrapper-content1,
@@ -152,69 +152,95 @@ h2 hr {
 .room-image1,
 .room-image2,
 .room-image3 {
-  height: 16em;
-  width: 24%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: rgba(0, 0, 0, 0.596);
-  background-blend-mode: multiply;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    height: 16em;
+    width: 24%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: multiply;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .room-image1,
 .room-image2,
 .room-image3 {
-  height: 30vw;
-  width: 29vw;
-  justify-content: flex-end;
-  background-blend-mode: normal;
-  background-color: rgba(0, 0, 0, 0);
+    height: 30vw;
+    width: 29vw;
+    justify-content: flex-end;
+    background-blend-mode: normal;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .room-image1 p,
 .room-image2 p,
 .room-image3 p {
-  height: 15%;
-  width: 100%;
-  padding: 15px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.65);
-  color: white;
-  font-weight: 600;
-  text-align: center;
-  transition: all 0.5s ease;
+    height: 15%;
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.5s ease;
 }
 
 .room-image1:hover p {
-  height: 100%;
-  font-size: 1.3em;
+    height: 100%;
+    font-size: 1.3em;
 }
 
 .room-image2:hover p {
-  height: 100%;
-  font-size: 1.3em;
+    height: 100%;
+    font-size: 1.3em;
 }
 
 .room-image3:hover p {
-  height: 100%;
-  font-size: 1.3em;
+    height: 100%;
+    font-size: 1.3em;
 }
 
-.about-us-container {
+
+/* .about-us-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   width: 100%;
+} */
+
+.about-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    width: 100%;
+    flex: 1;
 }
 
+.about-image-wrapper {
+    width: 45%;
+    /* flex: 1; */
+}
+
+.about-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+.text-content {
+    width: 45%;
+}
+
+
+/* 
 .about-us-container .text-content {
   display: flex;
   flex-direction: column;
@@ -246,209 +272,204 @@ h2 hr {
 .section .suite-text {
   font-size: 1.3em;
   line-height: 185.19%;
-}
+} */
 
 .section .suite-text {
-  text-align: center;
+    text-align: center;
 }
 
 .slide-text {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2em;
-  line-height: 185.19%
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 185.19%
 }
 
 button {
-  background-color: #EB392E;
-  color: white;
-  padding: 20px;
-  border: none;
-  cursor: pointer;
+    background-color: #EB392E;
+    color: white;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
 }
 
 .gallery-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 0px;
-  flex-wrap: wrap;
-  justify-content: center;
-  overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .testimonial-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
 }
 
 .testimonial-container img {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .slide {
-  display: none;
+    display: none;
 }
 
 .active-slide {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 2.5em;
-  padding: 0.5em;
-  animation: fade 1.5s;
-
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2.5em;
+    padding: 0.5em;
+    animation: fade 1.5s;
 }
 
 .prev,
 .next {
-  cursor: pointer;
-  color: #A0A0A0;
+    cursor: pointer;
+    color: #A0A0A0;
 }
 
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  margin: 0 2px;
-  background-color: #bbb;
-  display: inline-block;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
 }
 
 .active-dot {
-  background-color: #EB392E;
+    background-color: #EB392E;
 }
 
 @keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @media screen and (max-width: 560px) {
-  .bannerTop {
-    height: 20em;
-  }
-
-  .gallery-container,
-  .about-us-container,
-  .testimonial-container,
-  .image-wrapper,
-  .image-wrapper2 {
-    margin-top: 25px;
-  }
-
-  .bannerTop h1 {
-    font-size:2em;
-    letter-spacing: 1px;
-    margin-bottom: 25px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .bannerTop p {
-    font-size: 1em;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-
-  }
-
-
-  h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 600;
-    width: 100%;
-    text-align: center;
-    padding: 0px 0 20px 0;
-    position: relative;
-  }
-
-  .section {
-    width: 100%;
-    margin: 80px auto 0 auto;
-  }
-
-  .image-wrapper,
-  .image-wrapper2 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-
-  .gallery-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .gallery-container .image-holder {
-    width: 50%;
-    height: 40vw;
-
-  }
-
-  .gallery-container .image-holder img {
-    width: 100%;
-  }
-
-  .wrapper-content1,
-  .wrapper-content2,
-  .wrapper-content3,
-  .wrapper-content4,
-  .room-image1,
-  .room-image2,
-  .room-image3 {
-    height: 19em;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .room-image1,
-  .room-image2,
-  .room-image3 {
-    width: 100%;
-    justify-content: flex-end;
-    background-blend-mode: normal;
-    background-color: rgba(0, 0, 0, 0);
-    margin-bottom: 1em;
-  }
-
-  .room-image1 p,
-  .room-image2 p,
-  .room-image3 p {
-    height: 15%;
-    width: 100%;
-    padding: 15px 10px;
-  }
-
+    .bannerTop {
+        height: 20em;
+    }
+    .gallery-container,
+    .about-us-container,
+    .testimonial-container,
+    .image-wrapper,
+    .image-wrapper2 {
+        margin-top: 25px;
+    }
+    .bannerTop h1 {
+        font-size: 2em;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .bannerTop p {
+        font-size: 1em;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 600;
+        width: 100%;
+        text-align: center;
+        padding: 0px 0 20px 0;
+        position: relative;
+    }
+    .section {
+        width: 100%;
+        margin: 80px auto 0 auto;
+    }
+    .image-wrapper,
+    .image-wrapper2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .gallery-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-container .image-holder {
+        width: 50%;
+        height: 40vw;
+    }
+    .gallery-container .image-holder img {
+        width: 100%;
+    }
+    .wrapper-content1,
+    .wrapper-content2,
+    .wrapper-content3,
+    .wrapper-content4,
+    .room-image1,
+    .room-image2,
+    .room-image3 {
+        height: 19em;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .room-image1,
+    .room-image2,
+    .room-image3 {
+        width: 100%;
+        justify-content: flex-end;
+        background-blend-mode: normal;
+        background-color: rgba(0, 0, 0, 0);
+        margin-bottom: 1em;
+    }
+    .room-image1 p,
+    .room-image2 p,
+    .room-image3 p {
+        height: 15%;
+        width: 100%;
+        padding: 15px 10px;
+    }
+    .about-us-container {
+        display: block;
+        width: 100%;
+    }
+    .about-image-wrapper,
+    .text-content {
+        margin: 0 auto;
+    }
+    .about-image-wrapper {
+        width: 65%;
+    }
+    .text-content {
+        margin-top: 1em;
+        width: 80%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .gallery-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .gallery-container .image-holder {
-    width:100%;
-    height: 200px;
-
-  }
-
-  .gallery-container .image-holder img {
-    width: 100%;
-  }
+    .gallery-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-container .image-holder {
+        width: 100%;
+        height: 200px;
+    }
+    .gallery-container .image-holder img {
+        width: 100%;
+    }
 }
