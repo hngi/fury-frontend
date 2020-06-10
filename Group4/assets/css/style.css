@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
 }
@@ -9,17 +7,16 @@ body {
 .footer {
     color: #E5E5E5;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1em;
 }
 
 .footer:hover {
     color: #696969;
 }
 
-footer{
+footer {
     color: #E5E5E5;
     background-color: #393939;
-    height: 500;
 }
 
 .footer:hover {
@@ -42,14 +39,16 @@ footer{
 }
 
 
-
-
+.footer-logo>a>img {
+    width: auto;
+    height: 7rem;
+}
 
 /* responsiveness */
 
 /* ipad responsiveness */
 
- @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
     /* .contact-info {
         display: inline;
@@ -62,24 +61,23 @@ footer{
     .footer {
         margin-left: 35%;
     } */
-      .contact-info {
+    .contact-info {
         padding-left: 0.8rem;
         padding-right: 0.9rem;
         padding: 1%;
         align-items: center;
-        /* justify-content: center; */
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        font-size: 1.3rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        font-size: 1em;
     }
-} 
+}
 
 
 
 /* mobile responsiveness */
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:780px) {
     .contact-info {
         flex-direction: column;
         justify-content: center;
