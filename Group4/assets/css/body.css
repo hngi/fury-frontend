@@ -16,8 +16,10 @@
   margin: 80px 0;
 }
 
-.gallery-container, .about-us-container, .testimonial-container {
-  margin-top: 80px;
+.gallery-container,
+.about-us-container,
+.testimonial-container {
+  margin-top: 90px;
 }
 
 main {
@@ -27,23 +29,38 @@ main {
 }
 
 .about-us-container {
- display:grid;
- grid-template-columns: auto auto;
- grid-gap:2em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2em;
 }
-.about-us-text{
+
+@media(max-width:780px) {
+  .about-us-container {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    text-align: center;
+  }
+
+  .about-us-image {
+    justify-self: center;
+  }
+}
+
+.about-us-text {
   align-self: flex-end;
 }
 
-.slide-image{
-  margin:0 1em;
+.slide-image {
+  margin: 0 1em;
 }
+
 .about-us-text {
   font-size: 24px;
   line-height: 185.19%;
 }
-.slide-text{
-  width: 847px;
+
+.slide-text {
+
   height: 132px;
   left: 395px;
   top: 4791px;
@@ -53,6 +70,7 @@ main {
   font-size: 24px;
   line-height: 185.19%
 }
+
 button {
   background-color: #EB392E;
   color: white;
@@ -71,25 +89,27 @@ button {
 }
 
 .testimonial-container {
- display:flex;
- justify-content: space-between;
- align-items: center;
- margin-bottom:2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
 }
 
 .slide {
   display: none;
 }
+
 .active-slide {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap:2.5em;
-  padding:0.5em;
+  grid-gap: 2.5em;
+  padding: 0.5em;
   animation: fade 1.5s;
 
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   color: #A0A0A0;
 }
@@ -103,18 +123,26 @@ button {
   background-color: #bbb;
   display: inline-block;
 }
-.active-dot{
+
+.active-dot {
   background-color: #EB392E;
 }
+
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
-@media(max-width:560px){
-  .about-us-container{
-    display:inline-block;
+@media(max-width:560px) {
+  .about-us-container {
+    display: inline-block;
   }
+
   .about-us-text {
     width: auto;
     height: 476px;
@@ -123,13 +151,14 @@ button {
     font-size: 18px;
     line-height: 185.1%;
   }
-  .about-us-image{
-    width:100%;
-    margin-right:0;
+
+  .about-us-image {
+    width: 100%;
+    margin-right: 0;
   }
 
-  .slide-text{
-    width:100%;
+  .slide-text {
+    width: 100%;
     height: 132px;
     left: 395px;
     top: 4791px;
@@ -139,9 +168,10 @@ button {
     line-height: 185.19%
   }
 }
-@media(max-width:1024px){
-  .active-slide{
-    display:inline-block;
-    text-align:center;
+
+@media(max-width:1024px) {
+  .active-slide {
+    display: inline-block;
+    text-align: center;
   }
 }

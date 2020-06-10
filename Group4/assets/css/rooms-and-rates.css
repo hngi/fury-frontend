@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-    html {
-        font-size: 16px;
-        line-height: 1.4;
-        box-sizing: border-box;
-        font-family: 'Raleway', sans-serif;
-=======
 html {
     font-size: 16px;
     line-height: 1.4;
@@ -25,7 +18,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 150px;
+    margin-top: 90px;
     background-color: rgba(0, 0, 0, 0.596);
     background-blend-mode: multiply;
     color: white;
@@ -36,12 +29,12 @@ html {
     text-align: center;
 }
 
-.banner h1 {
+.bannerTop h1 {
     font-size: 6.5vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.banner p {
+.bannerTop p {
     font-size: 2.5vw;
 }
 
@@ -144,197 +137,48 @@ html {
 
 
 @media screen and (max-width: 1024px) {
-    .banner h1 {
+    .bannerTop h1 {
         font-size: 7vw;
     }
     
-    .banner p {
+    .bannerTop p {
         font-size: 3vw;
     }
     .pad {
         padding: 70px 20px 0 20px;
->>>>>>> c3b20032c8eff8c023927fae2fc8f963c4707bb9
     }
-    
-    * {
-        box-sizing: inherit;
-        padding: 0;
-        margin: 0;
-    }
-    
-    nav {
-        height: 70px;
-        background-color: black;
-    }
-    
-    .banner {
-        height: 15em;
-        background-image: url(/assets/images/04-Rooms/header-image-4-other-page.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-color: rgba(0, 0, 0, 0.596);
-        background-blend-mode: multiply;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .banner h1 {
-        font-size: 6.5vw;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    
-    .banner p {
-        font-size: 2.5vw;
-    }
-    
+}
+
+@media screen and (max-width: 767px) {
     .pad {
-        padding: 70px 80px 0 80px;
+        padding: 70px 20px 0 20px;
     }
-    
-    .description {
-        padding-bottom: 70px;
+
+    .row-1, .row-2 {
+        justify-content: center;
+        flex-direction: column;
+        width:80%;
+        margin:0 auto 0 auto;
     }
-    
-    .description p {
-        text-align: center;
-    }
-    
-    .row-1,
-    .row-2 {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 80px;
-    }
-    
-    .standard,
-    .deluxe,
-    .family,
-    .executive {
-        width: 40%;
-    }
-    
-    .image1 {
-        background-image: url(/assets/images/04-Rooms/StandardRoom.jpg);
-    }
-    
-    .image2 {
-        background-image: url(/assets/images/04-Rooms/Deluxeeroom.jpg);
-    }
-    
-    .image3 {
-        background-image: url(/assets/images/04-Rooms/family-rooms.jpg);
-    }
-    
-    .image4 {
-        background-image: url(/assets/images/04-Rooms/executive-rooms.jpg);
-    }
-    
-    .image1,
-    .image2,
-    .image3,
-    .image4 {
-        display: flex;
-        align-items: flex-end;
-        height: 15em;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .room-title {
+
+    .standard, .deluxe, .family, .executive {
         width: 100%;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        background-color: rgba(0, 0, 0, 0.65);
-        color: white;
-        font-weight: 600;
+        margin-bottom: 30px;  
     }
-    
-    .small {
-        font-size: 0.75rem;
-        font-weight: normal;
-    }
-    
-    .text {
-        padding-top: 30px;
-    }
-    
-    .text p {
-        padding-right: 10px;
-    }
-    
-    .details {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-        align-items: flex-end;
-    }
-    
-    .other {
-        margin-left: 15px;
-    }
-    
-    .btn {
-        text-decoration: none;
-        color: white;
-        font-size: 1rem;
-        background-color: red;
-        padding: 1.22em 6em;
-        ;
-    }
-    
-    @media screen and (max-width: 1024px) {
-        .pad {
-            padding: 70px 20px 0 20px;
-        }
-    }
-<<<<<<< HEAD
-    
-    @media screen and (max-width: 767px) {
-        .pad {
-            padding: 70px 20px 0 20px;
-        }
-        .row-1,
-        .row-2 {
-            justify-content: center;
-            flex-direction: column;
-            width: 80%;
-            margin: 0 auto 0 auto;
-        }
-        .standard,
-        .deluxe,
-        .family,
-        .executive {
-            width: 100%;
-            margin-bottom: 30px;
-        }
-=======
 }
 
 @media screen and (max-width: 500px) {
     .pad{
         padding: 30px 20px 0 20px;
     }
-    .banner h1 {
+    .bannerTop h1 {
         font-size: 9vw;
     }
     
-    .banner p {
+    .bannerTop p {
         font-size: 4vw;
     }
     .row-1, .row-2 {
         width:100%;
->>>>>>> c3b20032c8eff8c023927fae2fc8f963c4707bb9
     }
-    
-    @media screen and (max-width: 410px) {
-        .row-1,
-        .row-2 {
-            width: 100%;
-        }
-    }
+}

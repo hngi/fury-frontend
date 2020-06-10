@@ -18,13 +18,13 @@ header {
 
 nav {
     display: grid;
-    grid-template-columns: .7fr .8fr .2fr;
-    padding: 20px 25px 20px 40px;
+    grid-template-columns: .7fr .9fr .2fr;
+    padding: 20px 25px 20px 20px;
     align-items: center;
 }
 
 .navbar-nav {
-    justify-self: center;
+    justify-self: right;
     margin: 0 !important;
 }
 
@@ -83,20 +83,12 @@ a {
 
 .btn {
     color: white;
-<<<<<<< HEAD
-=======
     max-width: 120px;
-    height: 56px;
     padding: 15px;
->>>>>>> c3b20032c8eff8c023927fae2fc8f963c4707bb9
     background: #EB392E;
     border-radius: 5px;
-    font-weight: 600;
-    text-align: center;
-}
-
-nav .btn {
-    padding: 1em 1.5em;
+    font-size: 1em;
+    text-align: center
 }
 
 .img-responsive {
@@ -136,7 +128,8 @@ nav .btn {
     position: fixed;
     width: 300px;
     padding: 50px;
-    left: 0;
+    top: 0;
+    z-index: 100;
     padding-top: 125px;
     background: white;
     list-style-type: none;
@@ -166,8 +159,6 @@ nav .btn {
         align-items: center;
         text-align: center;
     }
-<<<<<<< HEAD
-=======
 
     .navbar-nav {
         display: none;
@@ -192,6 +183,12 @@ nav .btn {
     .active {
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+}
+
+@media(max-width:992px) {
+    nav {
+        grid-template-columns: .1fr 1fr .2fr;
     }
 }
 
@@ -226,5 +223,4 @@ nav .btn {
 
 .mb-5 {
     margin-bottom: 3em;
->>>>>>> c3b20032c8eff8c023927fae2fc8f963c4707bb9
 }
