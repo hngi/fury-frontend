@@ -6,32 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
     <link rel="stylesheet" href="assets/css/rooms-and-rates.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Rooms and Rates</title>
 </head>
 
 <body>
     <!-- Navigation Bar -->
-    <header class="header">
+    <header>
         <nav>
             <a class="navbar-brand" href="index.html">
                 <img class="img-responsive" src="assets/images/logos/header-logo.png" alt="logo">
             </a>
             <ul class="navbar-nav">
-                <li class="nav-item" aria-current="home"> <a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"> <a class="nav-link" href="">About us</a></li>
-                <li class="nav-item"> <a class="nav-link" href="rooms-and-rates.html">Rooms</a></li>
-                <li class="nav-item"> <a class="nav-link" href="contact-us.html">Contact us</a></li>
+                <li class="nav-item" aria-current="rooms&rates"> <a class="nav-link"
+                        href="rooms-and-rates.html">Rooms</a></li>
+                <li class="nav-item"> <a class="nav-link" href="contact.html">Contact us</a></li>
                 <li class="nav-item"> <a class="nav-link" href="facilities.html">Facilities</a></li>
             </ul>
-            <a class="btn" href="#"> Book Now</a>
-
+            <a class="btn btn-header" href="#"> Book Now</a>
+            <div class="bar-container" onclick="toggler(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </nav>
-    </header>
 
+    </header>
+    <!-- side navigation -->
+    <ul class="sidemenu">
+        <li> <a class="nav-link" href="index.html">Home</a></li>
+        <li> <a class="nav-link" href="">About us</a></li>
+        <li> <a class="nav-link" href="family-room.html">Rooms</a></li>
+        <li> <a class="nav-link" href="contact.html">Contact us</a></li>
+        <li> <a class="nav-link" href="facilities.html">Facilities</a></li>
+        <li>
+            <a class="btn" href="#"> Book Now</a>
+        </li>
+    </ul>
+    <!-- sidenavigation -->
     <!-- End Navigation Bar -->
     <main>
-        <div class="banner">
+        <div class="bannerTop">
             <h1>ROOMS & RATES</h1>
             <p> Elegant rooms at affordable prices </p>
         </div>
@@ -132,7 +150,30 @@
         </div>
         <!--end of pad-->
     </main>
-    <footer></footer>
+
+    <footer>
+
+        <div class="contact-info">
+            <div class="footer footer-logo contain"><a href="#"><img src="assets/images/logos/footer-logo.png"
+                        alt="dumont logo" srcset=""></a></div>
+            <div>
+                <p class="middle-text contain"><a class="footer">Plot 411, Musa Aliro close,</a><br>
+                    <a class="footer" href="#">Maitama, Abuja.</a><br>
+                    <a class="footer" href="tel: (+234)803-221-7768">(+234)803-221-7768</a><br>
+                    <a class="footer" href="(+01)1717087">(+01)1717087</a><br>
+                    <a class="footer" href="mailto: contact@dumont.com">contact@dumont.com</a><br>
+                    <a class="footer" href="mailto: reservation@dumont.com">reservation@dumont.com</a></p>
+            </div>
+            <div>
+                <p class="right-text contain"><a class="footer" href="#rooms">Accomodation</a><br>
+                    <a class="footer" href="gallery">Gallery</a><br>
+                    <a class="footer" href="#">Terms & Conditions</a><br>
+                    <a class="footer" href="about-us">About</a><br>
+                    <a class="footer" href="mailto: contact@dumont.com">Contact Us</a><br>
+                    <a class="footer" href="#book">Membership</a></p>
+            </div>
+        </div>
 </body>
+<script src="assets/js/main.js" async></script>
 
 </html>
