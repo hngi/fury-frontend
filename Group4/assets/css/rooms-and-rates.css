@@ -130,7 +130,7 @@ html {
 }
 .details-btn:hover{
     color: #EB392E;
-    background-color: white;
+    background-color: transparent;
     border: 1px solid #EB392E;
     font-weight: 700;
 }

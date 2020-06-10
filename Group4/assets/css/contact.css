@@ -141,7 +141,7 @@ input[type=submit]:hover{
     display: none;
 }
 .right-side{
-    width: 80%;
+    width: 100%;
 }
 h2 {
     font-size: 3vw;
