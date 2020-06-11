@@ -33,8 +33,10 @@ main div{
 }
 
 .bannerTop h1 {
-    font-size: 6.5vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5vw;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 h2 {
