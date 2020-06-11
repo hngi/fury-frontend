@@ -162,7 +162,7 @@ a {
 
 
 
-@media(min-width:900px) {
+@media(min-width:993px) {
     nav {
         grid-template-columns: .2fr .9fr .2fr;
     }
