@@ -1,0 +1,155 @@
+.showcase {
+    height: 100vh;
+    background-image: url('../img/Homepage_img.png');
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.showcase::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(91, 14, 34, 0.5);
+    z-index: 1;
+}
+
+.showcase__inner {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.social {
+    list-style-type: none;
+}
+
+/* Carousel base class */
+.carousel {
+
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 10rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+/*
+ */
+
+.above-tagline {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    color: #FFA800;
+}
+
+
+/* footer styling */
+
+footer {
+    background: rgba(91, 14, 34, 0.85);
+    color: white;
+    padding: 7vh 7vw;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Merriweather Sans;
+}
+
+footer p {
+    font-size: 18px;
+    font-family: Merriweather Sans;
+    font-style: normal;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: block;
+    font-size: 18px;
+    font-family: Merriweather Sans;
+    font-style: normal;
+}
+
+footer .social-links {
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+footer .social-links img {
+    padding-left: 1.5vw;
+}
+
+footer .social-links img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+footer .footer__links {
+    line-height: 34px;
+}
+
+.scrolltop {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+}
+
+.scroll {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.scroll:hover {
+    background: #b2b2b2;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+/* end of footer styling */
+
+@media screen and (max-width: 600px) {
+  .side {
+    float: left !important;
+    display: block !important;
+    margin: auto;
+  }
+}
