@@ -1,8 +1,20 @@
+/* Added font */
+@font-face {
+  font-family: 'Gotham';
+  src: local('Gotham'),
+       url('/assets/webfont/iCiel\ Gotham-Medium.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Gotham';
+  src: local('Gotham'),
+       url('/assets/webfont/iCiel\ Gotham-Thin.ttf') format("truetype");
+}
+
 body,html{
     padding: 0;
     margin: 0;
     height: 100%;
-    font-family: 'Gotham', sans-serif;
+    /* font-family: 'Gotham', sans-serif; */
 
 }
 
@@ -15,9 +27,7 @@ body,html{
     background-position: center;
     background-size: cover;
     color: #fff;
-    height: 50%;
-   
-    
+    height: 60%;
     display: flex;
     place-items: center;
 }
@@ -26,6 +36,7 @@ body,html{
     background: rgba(0, 0, 0, 0.62);
     height: 100%;
     width: 100%;
+    padding-top: 10%;
 }
 
 .room-rate-intro h2{
@@ -152,7 +163,6 @@ button{
 }
 
 li{
-    font-family: Gotham;
     font-style: normal;
     font-weight: 350;
     font-size: 20px;
