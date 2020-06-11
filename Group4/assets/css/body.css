@@ -208,6 +208,18 @@ h2 hr {
     font-size: 1.3em;
 }
 
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-gap: 0px;
+    /* justify-content: center; */
+}
+
+.gallery-container img {
+    width: 100%;
+    max-width: 100%;
+}
+
 
 /* .about-us-container {
   display: flex;
@@ -292,15 +304,6 @@ button {
     padding: 20px;
     border: none;
     cursor: pointer;
-}
-
-.gallery-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 0px;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
 }
 
 .testimonial-container {
@@ -398,13 +401,11 @@ button {
     }
     .gallery-container {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
     }
     .gallery-container .image-holder {
-        width: 50%;
-        height: 40vw;
+        margin: 0 auto;
+        width: 80%;
     }
     .gallery-container .image-holder img {
         width: 100%;
