@@ -218,12 +218,6 @@ input:hover {
         width: 100%;
         height: 250px;
     }
-<<<<<<< HEAD
-
-    h2 {
-        font-size: 8.0vw;
-        letter-spacing: 2px;
-=======
     .image img {
         object-fit: fill;
     }
@@ -237,6 +231,10 @@ input:hover {
     }
     .container {
         margin-bottom: 120px;
->>>>>>> 754cac82afcb659d92e63afaf5252566e679a537
+    }
+
+    h2 {
+        font-size: 8.5vw;
+        letter-spacing: 2px;
     }
 }
