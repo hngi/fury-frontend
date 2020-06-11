@@ -1,7 +1,9 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 .overall-container{
@@ -128,7 +130,6 @@
 }
 
 .overview h1 {
-    font-weight: 800;
     font-size: 20px;
 }
 
@@ -164,7 +165,6 @@
 }
 
 .amenities-details h1 {
-    font-weight: 800;
     font-size: 20px;
     
 }
