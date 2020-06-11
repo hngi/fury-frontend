@@ -173,6 +173,11 @@ input:hover {
     .container {
         width: 100%;
     }
+
+    h2 {
+        font-size: 6.5vw;
+        letter-spacing: 2px;
+    }
 }
 
 
@@ -226,5 +231,10 @@ input:hover {
     }
     .container {
         margin-bottom: 120px;
+    }
+
+    h2 {
+        font-size: 8.5vw;
+        letter-spacing: 2px;
     }
 }
