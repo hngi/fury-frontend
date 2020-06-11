@@ -52,7 +52,7 @@ The Frontend team has been sectioned into groups, with each group expected to wo
 
   After each subgroup is done with their pages, ten group members are selected to work on the responsiveness of the website, that is two persons for each design page after which five other group members clean up and format the code. The website is then  tested across all major browsers.
 
-## Description of the Website
+## Components of the Website
 
 The website is quite simple and the technologies used are as follows;
 
