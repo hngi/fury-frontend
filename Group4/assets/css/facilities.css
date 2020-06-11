@@ -44,7 +44,8 @@ h2 {
     font-family: 'PT Serif', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 72px
+    font-size: 4.5vw;
+    letter-spacing: 2px;
 }
 
 
@@ -191,6 +192,7 @@ input:hover {
     }
 
     h2 {
-        font-size: 9vw;
+        font-size: 4.5vw;
+        letter-spacing: 2px;
     }
 }
