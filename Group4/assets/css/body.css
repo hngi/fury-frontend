@@ -26,7 +26,7 @@ main {
 }
 
 .mt-2 {
-    margin: 80px 0;
+    margin: 40px 0;
 }
 
 .gallery-container,
@@ -94,7 +94,6 @@ h2 hr {
     padding: 15px 30px;
     text-align: center;
     border: 1px solid #EB392E;
-    /* width: 150px; */
     margin-top: 1em;
 }
 
@@ -220,26 +219,23 @@ h2 hr {
     max-width: 100%;
 }
 
-
-/* .about-us-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-} */
-
 .about-us-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /* align-items: flex-start; */
-    width: 100%;
-    flex: 1;
+    justify-content: space-between;
+}
+.about-us-container-toggle{
+    display: block;
 }
 
 .about-image-wrapper {
-    width: 45%;
-    /* flex: 1; */
+    width: 55%;
+    max-width: 500px;
+}
+
+.about-image-wrapper-toggle {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
 }
 
 .about-image {
@@ -247,44 +243,30 @@ h2 hr {
     max-width: 100%;
 }
 
+.about-image-toggle {
+    width: 50%;
+    max-width: 500px;
+}
+
 .text-content {
-    width: 45%;
+    width: 500px;
+    margin: 0 0 0 10px;
+}
+.text-content-toggle {
+    width: 100%;
+    margin: 0 0 0 10px;
+}
+.about-us-text{
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
 }
 
-
-/* 
-.about-us-container .text-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.about-us-text-toggle{
+    width: 100%;
+    height: initial;
+    overflow: auto;
 }
-
-.about-us-image{
-  display: none;
-  background-image: url('../images/01-HomePage/004-AboutUs/AboutUs.jpg');
-  width: 50%;
-  height: 300px;
-}
-
-.about-us-container div a {
-  max-width: fit-content;
-}
-
-
-
-.about-us-text {
-  align-self: flex-end;
-}
-
-.slide-image {
-  margin: 0 1em;
-}
-
-.about-us-text,
-.section .suite-text {
-  font-size: 1.3em;
-  line-height: 185.19%;
-} */
 
 .section .suite-text {
     text-align: center;
@@ -372,16 +354,10 @@ button {
     }
 }
 
-@media screen and (max-width: 560px) {
+
+@media screen and (max-width: 768px) {
     .bannerTop {
         height: 20em;
-    }
-    .gallery-container,
-    .about-us-container,
-    .testimonial-container,
-    .image-wrapper,
-    .image-wrapper2 {
-        margin-top: 25px;
     }
     .bannerTop h1 {
         font-size: 2em;
@@ -403,8 +379,8 @@ button {
         position: relative;
     }
     .section {
-        width: 100%;
-        margin: 80px auto 0 auto;
+        width: 90%;
+        margin: 20px auto;
     }
     .image-wrapper,
     .image-wrapper2 {
@@ -413,17 +389,7 @@ button {
         justify-content: space-between;
         flex-direction: column;
     }
-    .gallery-container {
-        width: 100%;
-        display: block;
-    }
-    .gallery-container .image-holder {
-        margin: 0 auto;
-        width: 80%;
-    }
-    .gallery-container .image-holder img {
-        width: 100%;
-    }
+
     .wrapper-content1,
     .wrapper-content2,
     .wrapper-content3,
@@ -437,38 +403,61 @@ button {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-bottom: 20px;
     }
     .room-image1,
     .room-image2,
     .room-image3 {
-        width: 100%;
         justify-content: flex-end;
         background-blend-mode: normal;
         background-color: rgba(0, 0, 0, 0);
-        margin-bottom: 1em;
     }
+    .about-us-container {
+        flex-wrap: wrap;
+    }
+    
+    .about-image-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .about-image {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .text-content {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .about-us-text{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+    .about-us-text-toggle{
+        width: 100%;
+        height: initial;
+        overflow: auto;
+    }
+    .gallery-container {
+        width: 100%;
+        display: block;
+    }
+    .gallery-container .image-holder {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .gallery-container .image-holder img {
+        width: 100%;
+    }
+
     .room-image1 p,
     .room-image2 p,
     .room-image3 p {
         height: 15%;
         width: 100%;
         padding: 15px 10px;
-    }
-    .about-us-container {
-        display: block;
-        width: 100%;
-    }
-    .about-image-wrapper,
-    .text-content {
-        margin: 0 auto;
-    }
-    .about-image-wrapper {
-        width: 65%;
-    }
-    .text-content {
-        margin-top: 1em;
-        width: 80%;
-        text-align: center;
     }
 
     .active-slide {

@@ -1,6 +1,6 @@
 let slides = document.querySelectorAll('.slide');
 let dots = document.querySelectorAll('.dot');
-console.log(slides, dots);
+// console.log(slides, dots);
 let prevButton = document.querySelector('.prev');
 let nextButton = document.querySelector('.next');
 let counter = 1;
