@@ -227,7 +227,7 @@ h2 hr {
 
 .about-us-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .about-us-container-toggle{
     display: block;
