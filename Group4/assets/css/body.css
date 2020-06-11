@@ -278,14 +278,6 @@ h2 hr {
     text-align: center;
 }
 
-.slide-text {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2em;
-    line-height: 185.19%
-}
-
 button {
     background-color: #EB392E;
     color: white;
@@ -304,10 +296,9 @@ button {
 }
 
 .testimonial-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 2em;
+    position: relative;
+    padding: 0 20px;
 }
 
 .testimonial-container img {
@@ -319,17 +310,40 @@ button {
 }
 
 .active-slide {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0.5em;
     animation: fade 1.5s;
 }
 
+.slide-image, .slide-text {
+    padding: 10px;
+}
+.slide-image {
+    text-align: center;
+}
+.slide-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: left;
+}
 .prev,
 .next {
     cursor: pointer;
     color: #A0A0A0;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+.prev{
+    top: 50%;
+    left: 0%;
+}
+.next{
+    top: 50%;
+    right: 0%;
 }
 
 .dot {
@@ -454,6 +468,20 @@ button {
         margin-top: 1em;
         width: 80%;
         text-align: center;
+    }
+
+    .active-slide {
+        display: block;
+        padding: 0.5em;
+        animation: fade 1.5s;
+    }
+
+    .slide-text{
+        font-size: 1em;
+    }
+
+    .slide-image, .slide-text {
+        width: 100%;
     }
 }
 
