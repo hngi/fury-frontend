@@ -1,0 +1,352 @@
+body{
+    /* THIS IS DONE TO OMIT THE DFAULT PADDING AND MARGIN */
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+   background-color: rgb(247, 247, 247);
+}
+
+.Nav a{
+    color: white;
+     text-decoration: none;
+     border-bottom: 2px solid transparent;
+     transition:1s;
+}
+
+
+
+.Nav{
+font-family: sans-serif;
+display: flex;
+background-color: #344A71;
+height: 4em;
+width: 100%;
+padding-top: 3em;
+padding-bottom: 1.5em;
+}
+
+/* FOR THE LUXARY HOTEL TAG */
+.span_class1 a{
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    transition: 1s;
+}
+
+.span_class1{
+    padding-left: 2em;
+      
+}
+.span_class1  :hover{
+    transition: 800ms;
+    padding: .5em .3em .5em 0em;
+    border-color: white;
+}
+
+.span_class1 h1,h2{
+display: inline;
+}
+
+
+
+
+
+/* FOR THE NAVIGATION LINKS */
+
+.span_class2{
+position: absolute;
+right: 2em;
+font-weight: bold;
+}
+
+
+
+/* FOR ONLY THE COMMON LINKS LIKE HOME ETC */
+
+.span_class3{
+padding-right: 1em;
+
+}
+.span_class3  :hover{
+    transition: 500ms;
+    border-color: white;
+}
+.span_class3  :active{
+   
+    border-color: white;
+}
+
+#Navlinks{
+    font-size: .8em;
+    padding-right: .4em;
+    padding-bottom: 0;
+}
+
+
+
+
+/* FOR THE SIGN UP LINK */
+
+
+#Signup_btn{
+    font-size: .9em;
+border-style: solid;
+border-color: white;
+border-width: 1.5px;
+padding: 5px;
+transition:1s;
+}
+
+#Signup_btn :hover{
+    transition: 800ms;
+    padding: .5em .5em .5em .5em;
+}
+/* end of the Navigation bar */
+
+
+
+/* THE SLOGAN  BEFORE THE MAIN COMTENTS */
+.slogan{
+   
+    margin: 0%;
+    width: 100%;
+    line-height: 2em;
+    background-position: center;
+    text-align: center;
+    height: 23em;
+    color: white;
+   
+}
+
+.slogan img{
+    width: inherit;
+    height: 350px;
+    background-position: right;
+    
+}
+#slogan_content{
+    position: absolute;
+    padding: 1em;
+  top: 8.5em;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 319px;
+    right: 0px;
+    left: 0px;
+}
+
+#slogan_content p{
+    padding-left:10%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+/* THE MAIN CONTANT STYLING */
+#main{
+    position: relative;
+    width: 90%;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 5% 5% 5%;
+    
+}
+
+
+/* FOR THE GENERAL CARD STYLING  */
+.card{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    height:450px ;
+    width: 40%;
+    padding: 0%;
+    margin: 0em 2em 3em 2.5em;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/* THIS IS TO REGILATE THE SIZE OF THE CARD IMAGE DIV */
+.card div{
+    height: 300px;
+}
+.card p{
+    padding: .5em 1em 1em 1em;
+}
+
+
+
+.card img{
+    width: 100%;
+    height: 300px;
+}
+
+/* FOR THE CARD BUTTON THAT LOOKS LIKE A TAG */
+.card_btn{
+
+background-color: rgba(0, 0, 0, 0.767);
+font-weight: bold;
+font-size: 25px;
+padding: .5em;
+width: 9em;
+color: blanchedalmond;
+transition: 1s ease;
+}
+
+.card_btn:hover{
+
+    background-color:  rgb(55, 45, 92);
+    width: 10em;
+    transition: 1s ease;
+    }
+    
+/* THIS LIFTS THE CAED LABELS INT TO THE IMAGE SPACE */
+.ctag{
+    position: relative;
+    top:-5em;
+}
+
+#emailform{
+    color: white;
+    background-color: transparent;
+    margin-bottom: 5em;
+}
+
+#emailform input[type="email"]{
+    color: white;
+    background-color: transparent;
+    border-radius: 2px;
+    border-color: blanchedalmond;
+    height: 2em;
+    width: 20em;
+    cursor: pointer;
+}
+button{
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    margin-left:1em ;
+    height: 3em;
+    width: 15em;
+    transition: 1s ease;
+}
+
+button:hover{
+    color:  rgb(55, 45, 92);;
+    background-color: rgb(255, 255, 255);
+    transition: 1s ease;
+}
+
+footer{
+    position:absolute;
+    background-color: #344A71;
+    padding: 2em 2em 1em 2em ;
+    color: white;
+    display: inline-block;
+    left: 0px;
+    right: 0px;
+}
+
+#footerlinks{
+margin-top: 40px;
+display: inline-block;
+margin: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+     text-decoration: none;
+     transition:1s;
+   
+}
+footer a:hover{
+font-size: larger;
+    transition: 1s;
+}
+
+#copywrite{
+    color: white;
+    font-style: italic;
+    margin-right: 5em;
+}
+
+
+
+
+
+
+
+/* FOR DASIC MOBILE STYLING */
+@media screen and (max-width:789px){
+.span_class3{
+    display: block;
+}
+
+#Navlinks{
+    display: block;
+    margin: 0em 0em 0em 0em;
+    padding: 1em ;
+}
+
+/* FOR MOBILE DORP DOWN */
+.span_class3{
+    z-index: 2;
+position: absolute;
+left: -4.5em;
+top:3.2em;
+padding: 1.5em;
+background-color: rgba(7, 11, 63, 0.644);
+
+}
+
+.span_class3 div{
+    padding: 0em 0em 4em 0em;
+    margin: 0em 2em 1em 1em;
+   
+}
+
+
+
+/* cards edit style */
+.card{
+    color: black;
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 400px;
+margin-left: 20px;
+}
+
+.card div{
+    height:250px
+}
+
+.card img{
+  width: 300px;
+    height: 250px;
+}
+
+
+#footerlinks{
+margin: 5em 2em 2em 0em;
+font-size: 1em;
+
+}
+/* FOOTER STYLINGS */
+
+#copywrite{   
+    font-size: .8em;
+}
+
+#footerlinks{
+padding-left: 0.5em;
+}
+
+footer{
+    padding: 1em;
+}
+
+#emailform button{
+    margin-top: .5em;
+    padding-left: 0em;
+
+}
+}
