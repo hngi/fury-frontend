@@ -104,6 +104,7 @@ h2 hr {
     border: 1px solid rgb(235, 57, 46);
     font-weight: 700;
 }
+
 .btn-head:hover {
     color: white!important;
     background-color: transparent;
@@ -234,8 +235,8 @@ h2 hr {
 }
 
 .about-image-wrapper {
-    width: 55%;
-    max-width: 500px;
+    width: 350px;
+    /* max-width: 500px; */
 }
 
 .about-image-wrapper-toggle {
@@ -264,7 +265,7 @@ h2 hr {
 }
 .about-us-text{
     width: 500px;
-    height: 100px;
+    height: 260px;
     overflow: hidden;
 }
 
