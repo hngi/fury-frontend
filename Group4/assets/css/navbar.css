@@ -90,6 +90,12 @@ a {
     font-size: 1em;
     text-align: center
 }
+.btn:hover {
+    color: #EB392E;
+    background-color: transparent;
+    border: 1px solid rgb(235, 57, 46);
+    font-weight: 700;
+}
 
 .img-responsive {
     width: auto;
