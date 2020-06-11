@@ -159,6 +159,11 @@ input:hover {
     .container {
         width: 100%;
     }
+
+    h2 {
+        font-size: 6.5vw;
+        letter-spacing: 2px;
+    }
 }
 
 
@@ -192,7 +197,7 @@ input:hover {
     }
 
     h2 {
-        font-size: 4.5vw;
+        font-size: 8.0vw;
         letter-spacing: 2px;
     }
 }
