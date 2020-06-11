@@ -30,8 +30,9 @@ html {
 }
 
 .bannerTop h1 {
-    font-size: 6.5vw;
+    font-size: 4.5vw;
     font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 .bannerTop p {
