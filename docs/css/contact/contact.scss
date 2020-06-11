@@ -32,6 +32,10 @@
     right: 0;
     position: absolute;
     z-index: -1;
+
+    @include for-phone {
+      background: url("../../assets/images/GOOGLE-MAP-IMAGE.png");
+    }
   }
 
   h1 {
@@ -49,16 +53,17 @@
     width: 80%;
     font-weight: 350;
     font-size: 20px;
+    text-align: center;
 
     @include for-phone {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 }
 
 .contact-form {
-  margin-top: 50px;
-  padding: 10px;
+  margin-top: 30px;
+  padding: 0 10px;
 
   .form-container {
     display: flex;
@@ -123,6 +128,9 @@
     .map {
       position: relative;
       margin-right: 30px;
+      @include for-phone {
+        display: none;
+      }
       .box {
         position: absolute;
         width: 273px;
@@ -144,47 +152,6 @@
 
       img {
         width: 100%;
-      }
-    }
-  }
-
-  .icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    min-width: 100%;
-
-    @include for-phone {
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-
-    .icon {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-
-      @include for-phone {
-        margin-bottom: 25px;
-        width: 100%;
-        justify-content: flex-start;
-        align-items: center;
-      }
-
-      .icon-img {
-        display: flex;
-        align-items: flex-end;
-        margin-right: 10px;
-      }
-
-      .icon-content {
-        p {
-          color: rgba(0, 0, 0, 0.7);
-          font-weight: bold;
-          font-size: 20px;
-        }
       }
     }
   }
