@@ -1,5 +1,8 @@
 .navbar {
     background-color:#344A71 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 a {
     color:white;
@@ -19,7 +22,7 @@ a:hover {
     padding: 3px;
     background-color: #344A71;
     color: white;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
