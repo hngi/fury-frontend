@@ -58,7 +58,8 @@ main {
     font-size: 4.5vw;
     letter-spacing: 2px;
     margin-bottom: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
 }
 
 .bannerTop p {
