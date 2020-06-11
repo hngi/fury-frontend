@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,27 +5,34 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 /* wrapper */
 
 
 /* nav style goes here */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 /* container css code */
+
 .container {
     width: 95%;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 170px;
-
 }
 
+
 /*End of container css code */
+
+
 /* header */
+
 .header-main {
     width: 100%;
     height: 259px;
@@ -36,6 +42,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(../images/01-HomePage/001-headerImage/headerImage-02.jpg);
+    background-position: center;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 
@@ -50,36 +57,44 @@ h2 {
 
 
 /* first cloumn syle */
+
 .flexOne {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    /* flex-wrap: wrap; */
 }
 
+.flexOne p,
+.flexTwo p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
 /* individual  flex child code goes here */
-.gymnasium,.swimmingPools {
+
+.gymnasium,
+.swimmingPools {
     width: 50%;
     height: 382px;
     margin-left: 20px;
 }
 
-.golf,.businessCafe {
+.golf,
+.businessCafe {
     /* margin: 0 auto; */
     width: 50%;
     height: 382px;
 }
 
-/* End of individual  flex child code */
 
+/* End of individual  flex child code */
 
 
 /* grouping of image and h5 which are both under the flex child  */
 
-
 .image {
     width: 95%;
-
 }
 
 .image h5 {
@@ -92,14 +107,10 @@ h2 {
     padding-bottom: 20px;
     font-style: normal;
     font-size: 24px;
-    font-weight: 800;
+    line-height: 1.2;
+    /* font-weight: 600; */
     /* height: 20px; */
 }
-
-
-
-
-
 
 .image img {
     width: 100%;
@@ -108,15 +119,16 @@ h2 {
     /* left: 80px; */
 }
 
+
 /* End grouping of image and h5 which are both under the flex child  */
 
 
 /* grouping of the paragraph and input tag which are also both in the flex child */
+
 .content {
     margin-top: 4%;
     width: 90%;
 }
-
 
 input {
     margin-top: 1rem;
@@ -136,12 +148,15 @@ input:hover {
     font-weight: 700;
 }
 
+
 /* End grouping of the paragraph and input tag which are also both in the flex child */
+
 
 /*End of first cloumn syle */
 
 
 /* Second row style  */
+
 .flexTwo {
     display: flex;
     align-items: center;
@@ -149,9 +164,8 @@ input:hover {
 }
 
 
-
-
 /* responsiveness */
+
 
 /* ipad responsiveness */
 
@@ -167,37 +181,62 @@ input:hover {
 }
 
 
-
-
 /* mobile responsiveness */
+
 @media screen and (max-width:767px) {
-
     .flexOne,
-    .flexTwo {
-        display: flex;
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-    }
-
-    .gymnasium,
-    .swimmingPools {
-        margin: 0 auto;
-        width: 90%;
-        margin-bottom: 10rem;
-    }
-
-    .golf,
-    .businessCafe {
-        margin: 0 auto;
-        width: 90%;
-    }
-
-    .image {
+    .flexTwo,
+    .flexOne>div,
+    .flexTwo>div {
+        display: block;
         width: 100%;
     }
+    .flexOne>div,
+    .flexTwo>div {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .flexOne {
+        margin: 0;
+        margin-bottom: 2em;
+    }
+    .flexTwo {
+        margin-top: 0;
+    }
+    .flexOne .gymnasium,
+    .flexTwo .swimmingPools,
+    .flexOne {
+        margin-bottom: 2em;
+    }
+    .gymnasium,
+    .swimmingPools,
+    .golf,
+    .businessCafe {
+        height: max-content;
+    }
+    .image {
+        width: 100%;
+        height: 250px;
+    }
+<<<<<<< HEAD
 
     h2 {
         font-size: 8.0vw;
         letter-spacing: 2px;
+=======
+    .image img {
+        object-fit: fill;
+    }
+    .golf,
+    .businessCafe {
+        margin-top: 4em;
+    }
+    .image img {
+        height: 100%;
+        max-width: 100%;
+    }
+    .container {
+        margin-bottom: 120px;
+>>>>>>> 754cac82afcb659d92e63afaf5252566e679a537
     }
 }
