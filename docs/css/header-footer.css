@@ -1,0 +1,38 @@
+.navbar {
+    background-color:#344A71 !important;
+}
+a {
+    color:white;
+}
+li {
+   list-style:none;
+}
+li a{
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+}
+.footer {
+    padding: 3px;
+    background-color: #344A71;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .col-sm-4 span {
+      display: block;
+  }
+  i {
+      margin: 5px;
+  }
+  a {
+      color:white;
+  }
+  .mt-5 {
+      margin-top: 20px;
+  }
