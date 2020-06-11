@@ -99,11 +99,16 @@ h2 hr {
 
 .details-btn:hover {
     color: #EB392E;
-    background-color: white;
-    border: 1px solid #EB392E;
+    background-color: transparent;
+    border: 1px solid rgb(235, 57, 46);
     font-weight: 700;
 }
-
+.btn-head:hover {
+    color: white!important;
+    background-color: transparent;
+    border: 1px solid rgb(235, 57, 46);
+    font-weight: 700;
+}
 .section {
     width: 90%;
     margin: 80px auto 0 auto;
