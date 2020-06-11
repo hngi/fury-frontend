@@ -71,6 +71,7 @@ nav {
 
 .nav-link {
     text-decoration: none;
+    color:red;
 }
 
 .nav-link:visited {
