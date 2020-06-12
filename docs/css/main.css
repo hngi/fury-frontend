@@ -3,15 +3,10 @@
     src: local('Gotham'),
          url('/assets/webfont/iCiel\ Gotham-Medium.ttf') format("truetype");
 }
-@font-face {
-    font-family: 'Gotham';
-    src: local('Gotham'),
-         url('/assets/webfont/iCiel\ Gotham-Thin.ttf') format("truetype");
-}
 
 body, html {
     height: 100%;
-    font-family: 'Gotham';
+    font-family: 'Gotham' !important;
 }
 
 /* home section design */
@@ -292,8 +287,8 @@ body, html {
 .p-edit, .about-header {
     position: relative;
     margin-left: 3rem;
+    text-align: center;
 }
-
 
 .flex-container {
     display: grid;  
@@ -340,6 +335,7 @@ body, html {
 .p-edit, .about-header {
     position: relative;
     margin-left: 3rem;
+    text-align: center;
 }
 
 .flex-container {
