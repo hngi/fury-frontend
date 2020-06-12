@@ -124,23 +124,20 @@
 /* Style for the overview section =================================================================================================== */
 .overview {
     padding: 2em 3em;
-    line-height: 156.19%;
-    font-size: 20px;
     color: #393939;
 }
 
-.overview h1 {
-    font-size: 20px;
-}
-
-.overview h1:after {
-    content:' ';
-    display:block;
-    border:1px solid #DADADA;
+.overview h1, .amenities-details h1 {
+    font-size: 1.5em;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #DADADA;
 }
 
 .overview p {
-    padding-bottom: 0.7em;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px 0;
 }
 
 
@@ -159,20 +156,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 2em 3em;
-    line-height: 156.19%;
-    font-size: 20px;
     color: #393939;
-}
-
-.amenities-details h1 {
-    font-size: 20px;
-    
-}
-
-.amenities-details h1:after {
-    content:' ';
-    display:block;
-    border:1px solid #DADADA;
 }
 
 .list-amenities ul,
@@ -181,26 +165,24 @@
     list-style: none;
 }
 
-
-.icon-list-two ul li ,
-.icon-list-one ul li  {
-    /* font-weight: 800; */
-    font-size: 18px;
+.list-amenities ul{
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px 0;
 }
 
-
-.icon-list-two ul li .detail-img,
-.icon-list-one ul li .detail-img {
-    margin-top: 1.6em;
-    margin-right: 0.5em;
+.icon-list-two ul li,
+.icon-list-one ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+    padding: 10px 0;
 }
 
-@media only screen and (max-width: 992px) {
-    .icon-list-two,
-    .icon-list-one,
-    .list-amenities {
-        margin: 10px;
-    }
+.icon-list-two ul li b,
+.icon-list-one ul li b {
+    padding: 0 5px;
 }
 
 /* End of Style for the amenities section =================================================================================================== */
@@ -218,7 +200,7 @@
     }
 }
 
-@media only screen and (max-width:568px) {
+@media only screen and (max-width:578px) {
     .page-header{
         height: 150px;
     }
