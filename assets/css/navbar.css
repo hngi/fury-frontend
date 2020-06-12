@@ -71,6 +71,7 @@ nav {
 
 .nav-link {
     text-decoration: none;
+    color:red;
 }
 
 .nav-link:visited {
@@ -88,6 +89,7 @@ a {
     background: #EB392E;
     border-radius: 5px;
     font-size: 1em;
+    font-weight: 700;
     text-align: center
 }
 .btn:hover {

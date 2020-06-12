@@ -104,6 +104,8 @@ h2 hr {
     border: 1px solid rgb(235, 57, 46);
     font-weight: 700;
 }
+
+=======
 .btn-head:hover {
     color: white!important;
     background-color: transparent;
@@ -227,15 +229,16 @@ h2 hr {
 
 .about-us-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
 }
 .about-us-container-toggle{
     display: block;
 }
 
 .about-image-wrapper {
-    width: 55%;
-    max-width: 500px;
+    width: 350px;
+    /* max-width: 500px; */
 }
 
 .about-image-wrapper-toggle {
@@ -264,7 +267,7 @@ h2 hr {
 }
 .about-us-text{
     width: 500px;
-    height: 100px;
+    height: 260px;
     overflow: hidden;
 }
 
@@ -479,21 +482,5 @@ button {
     .slide-image, .slide-text {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 320px) {
-    .gallery-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .gallery-container .image-holder {
-        width: 100%;
-        height: 200px;
-    }
-    .gallery-container .image-holder img {
-        width: 100%;
-    }
 }
