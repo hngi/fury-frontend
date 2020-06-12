@@ -21,12 +21,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  
+
   color: #fff;
   background: url("../../assets/images/HEADER-IMAGE-CONTACT US.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.554);
+  background-color: rgba(0, 0, 0, 0.78);
   background-blend-mode: multiply;
   margin-top: 70px;
 }
@@ -43,14 +43,14 @@
   position: absolute;
   margin-top: 70px; */
   /* z-index: -1; */
-/* } */ 
+/* } */
 
 @media screen and (max-width: 768px) {
   .contact-header {
-    background: url("../../assets/images/HEADER-IMAGE-CONTACT US.png");
+    background: url("../../assets/images/GOOGLE-MAP-IMAGE.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.554);
+    background-color: rgba(0, 0, 0, 0.78);
     background-blend-mode: multiply;
   }
 }
