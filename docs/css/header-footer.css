@@ -3,6 +3,7 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+    top:0;
 }
 a {
     color:white;
@@ -28,8 +29,9 @@ a:hover {
     background-color: #344A71;
     color: white;
     left: 0;
-    bottom: 0;
-    width: 100%;
+    /* position: fixed; */
+    /* bottom: 0;
+    width: 100%; */
   }
   .col-sm-4 span {
       display: block;
@@ -59,4 +61,7 @@ a:hover {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
+
+.footer h1 {
+    margin-left: 0.4em;
 }

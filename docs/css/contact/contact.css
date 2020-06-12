@@ -17,7 +17,7 @@ body, html {
 }
 
 .contact-header {
-  height: 300px;
+  height: 400px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,13 +32,18 @@ body, html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #000;
-  opacity: 0.9;
+
   color: #fff;
+  background: url("../../assets/images/HEADER-IMAGE-CONTACT US.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.78);
+  background-blend-mode: multiply;
+  margin-top: 70px;
 }
 
-.contact-header::after {
-  background: url("../../assets/images/HEADER-IMAGE-CONTACT US.png");
+/* .contact-header::after {
+  /* background: url("../../assets/images/HEADER-IMAGE-CONTACT US.png");
   background-size: cover;
   content: "";
   opacity: 0.3;
@@ -47,12 +52,17 @@ body, html {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;
-}
+  margin-top: 70px; */
+  /* z-index: -1; */
+/* } */
 
 @media screen and (max-width: 768px) {
-  .contact-header::after {
+  .contact-header {
     background: url("../../assets/images/GOOGLE-MAP-IMAGE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.78);
+    background-blend-mode: multiply;
   }
 }
 
@@ -79,6 +89,7 @@ body, html {
 @media screen and (max-width: 768px) {
   .contact-header p {
     font-size: 18px;
+    text-align: center;
   }
 }
 

@@ -14,20 +14,22 @@ body,html{
 
 .facilities-intro{
     background-image: url('https://res.cloudinary.com/dev-sam/image/upload/v1591774082/t1s6dftrvoarawu0xmfz.png');
-    background-size: 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     color: #fff;
     height: 50%;
     width: 100%;
-  
-    display: flex;
-  
+    margin-top: 70px;
 }
 
 .facilities-intro section{
     background: rgba(0, 0, 0, 0.62);
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -37,7 +39,6 @@ body,html{
     text-align: center;
     font-size: 50px;
     line-height: 48px;
-    margin-top: 4rem;
 }
 
 .facilities-intro p{
@@ -45,7 +46,6 @@ body,html{
     line-height: 24px;
     font-weight: 350;
     text-align: center;
-    margin: 0 4rem;
 }
 
 .facilities-container{
@@ -128,12 +128,12 @@ body,html{
     .facilities-intro h2{
         font-size: 50px;
         line-height: 45px;
-        margin-top: 6rem;
+        /* margin-top: 6rem; */
     }
     .facilities-intro p{
         font-size: 20px;
         line-height: 30px;
-        margin: 0 4rem;
+        /* margin: 0 4rem; */
     }
     .facilities-container{
         display: block;
