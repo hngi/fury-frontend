@@ -218,7 +218,7 @@
     }
 }
 
-@media only screen and (max-width:568px) {
+@media only screen and (max-width:578px) {
     .page-header{
         height: 150px;
     }
