@@ -105,6 +105,7 @@ h2 hr {
     font-weight: 700;
 }
 
+=======
 .btn-head:hover {
     color: white!important;
     background-color: transparent;
@@ -229,6 +230,7 @@ h2 hr {
 .about-us-container {
     display: flex;
     justify-content: space-around;
+
 }
 .about-us-container-toggle{
     display: block;
@@ -480,4 +482,5 @@ button {
     .slide-image, .slide-text {
         width: 100%;
     }
+
 }

@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -201,6 +200,7 @@
 }
 
 @media only screen and (max-width:578px) {
+
     .page-header{
         height: 150px;
     }
