@@ -28,9 +28,9 @@ a:hover {
     padding: 3px;
     background-color: #344A71;
     color: white;
+    left: 0;
     /* position: fixed; */
-    /* left: 0;
-    bottom: 0;
+    /* bottom: 0;
     width: 100%; */
   }
   .col-sm-4 span {
@@ -45,6 +45,22 @@ a:hover {
   .mt-5 {
       margin-top: 20px;
   }
+  .email-input{
+    background-color: #344A71;
+    border: 2px solid white;
+}
+.email-input::placeholder{
+    color: white;
+    padding: 0 3px;
+    font-weight: 200;
+}
+.sub-btn{
+    margin: 0 0 50px 0 !important;
+    border-radius: 0 0 0 0 !important;
+    border: 2px solid white !important;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
 
 .footer h1 {
     margin-left: 0.4em;
